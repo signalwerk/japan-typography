@@ -1,0 +1,348 @@
+# backend:
+#   name: github
+#   repo: signalwerk/japan.typography
+#   base_url: https://auth.signalwerk.workers.dev
+#   branch: main
+
+backend:
+  name: git-gateway
+local_backend: true
+
+site_url: "https://typography.japan.signalwerk.ch/"
+media_folder: /public/assets/media
+# media_library:
+#   name: uploadcare
+#   folder_support: true
+locale: en
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_files
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, de, fr]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  defaultLocale: en
+
+# define Anchor for all types
+# can be used with *base (Alias)
+types:
+  text: &text
+    label: Text
+    name: text
+    widget: object
+    fields:
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
+        show_raw: true
+      - label: Class
+        name: class
+        widget: string
+        required: false
+  image: &image
+    label: Image
+    name: image
+    widget: object
+    fields:
+      - label: Image
+        name: path
+        widget: image
+        required: false
+        # multiple: true
+      - label: Caption per Image
+        name: caption
+        widget: string
+        required: false
+      - label: Alternative Text (accessibility)
+        name: alt
+        widget: string
+        required: false
+      - label: Class
+        name: class
+        widget: string
+        required: false
+
+  mediaItems: &mediaItems
+    label: Media Items
+    label_singular: Media Item
+    name: mediaItems
+    widget: object
+    fields:
+      - label: Media Item
+        name: children
+        widget: list
+        required: false
+        collapsed: false
+        fields:
+          - *image
+      - label: Caption for all media items
+        name: caption
+        widget: string
+        required: false
+      - label: Class
+        name: class
+        widget: string
+        required: false
+
+  refPage: &refPage
+    label: Page reference
+    name: ref_page
+    widget: object
+    fields:
+      - name: selectionType
+        label: Type
+        widget: select
+        required: false
+        default: "selection"
+        options:
+          - value: all
+            label: All
+          - value: selection
+            label: Selection
+      - label: "Selection"
+        name: "pages"
+        widget: "relation"
+        multiple: true
+        collection: "pages"
+        search_fields: ["title", "path"]
+        display_fields: ["title", "· {{path}}"]
+        value_field: "path"
+        condition:
+          field: selectionType
+          value: selection
+
+grid: &grid
+  label: Grid
+  name: grid
+  widget: object
+  fields:
+    - label: Column
+      name: children
+      widget: list
+      required: false
+      collapsed: false
+      fields:
+        # - label: Width
+        #   name: cols
+        #   widget: string
+        #   required: false
+        - name: cols
+          label: Width
+          widget: select
+          required: false
+          options:
+            - value: 1
+              label: col 1
+            - value: 2
+              label: col 2
+            - value: 3
+              label: col 3
+            - value: 4
+              label: col 4
+            - value: 5
+              label: col 5
+            - value: 6
+              label: col 6
+            - value: 7
+              label: col 7
+            - value: 8
+              label: col 8
+            - value: 9
+              label: col 9
+            - value: 10
+              label: col 10
+            - value: 11
+              label: col 11
+            - value: 12
+              label: col 12
+        - label: Column Content
+          name: children
+          # widget: list
+          widget: list
+          collapsed: false
+          types:
+            - *text
+            - *image
+            - *mediaItems
+          required: false
+
+    - label: Grid Class
+      name: class
+      widget: string
+      required: false
+
+box: &box
+  label: Box
+  name: box
+  widget: object
+  fields:
+    - label: Content
+      name: children
+      widget: list
+      types:
+        - *text
+        - *image
+      required: false
+      collapsed: false
+    - label: Type
+      name: preset
+      widget: select
+      options: ["default", "header", "footer"]
+      default: "default"
+    - label: Class
+      name: class
+      widget: string
+      required: false
+
+# types for on the children of the page
+basePage: &basePage
+  - *text
+  - *image
+  # - *box
+  # - *mediaItems
+  # - *grid
+
+collections:
+  - name: pages
+    label: Pages
+    format: json
+    label_singular: Page
+    description: >
+      Page
+    folder: content/pages
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary_fields:
+      - title
+      - date
+      - draft
+    # sortable_fields:
+    #   fields:
+    #     - title
+    #     - date
+    #   default:
+    #     field: title
+    create: true
+    # view_filters:
+    #   - label: Pages With Index
+    #     field: title
+    #     pattern: "This is post #"
+    #   - label: Pages Without Index
+    #     field: title
+    #     pattern: front matter post
+    #   - label: Drafts
+    #     field: draft
+    #     pattern: true
+    # view_groups:
+    #   - label: Year
+    #     field: date
+    #     pattern: '\d{4}'
+    #   - label: Drafts
+    #     field: draft
+    # nested:
+    #   depth: 100 # max depth to show in the collection tree
+    #   summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    #   # adding a path object allows editing the path of entries
+    #   # moving an existing entry will move the entire sub tree of the entry to the new location
+    #   path: { label: 'Path', index_file: 'index' }
+
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Path
+        name: path
+        widget: pathpreview
+        images:
+          - url: https://github.com/signalwerk/japan.typography/actions/workflows/gh-pages.yml
+            img: https://github.com/signalwerk/japan.typography/actions/workflows/gh-pages.yml/badge.svg
+          - url: https://github.com/signalwerk/japan.typography/actions/workflows/pages/pages-build-deployment
+            img: https://github.com/signalwerk/japan.typography/actions/workflows/pages/pages-build-deployment/badge.svg
+
+        # required: false
+      - label: Draft
+        name: draft
+        widget: boolean
+        default: false
+      - label: Date
+        name: date
+        widget: datetime
+        date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm" # e.g. 21:07
+        format: "x"
+      - label: Cover Image
+        name: image
+        widget: image
+        required: false
+      - label: Description
+        name: description
+        widget: string
+        required: false
+      - name: children
+        label: Content
+        widget: list
+        required: false
+        collapsed: false
+        # types: *base
+        types: *basePage
+
+  # =================================================================================================
+  # =================================================================================================
+
+  - name: settings
+    label: Settings
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: settings
+        label: Settings
+        file: src/settings.json
+        fields:
+          - label: Menus
+            name: menus
+            widget: list
+            required: false
+            collapsed: false
+            fields:
+              - label: Menu
+                name: menu
+                widget: object
+                required: false
+                fields:
+                  - label: Title
+                    name: title
+                    widget: string
+                  - *refPage
+          - label: Page
+            name: page
+            widget: object
+            required: false
+            fields:
+              - label: HTML
+                name: html
+                widget: object
+                required: false
+                fields:
+                  - label: Default language
+                    name: lang
+                    widget: string
+              - label: Head
+                name: head
+                widget: object
+                required: false
+                fields:
+                  - label: stylesheets
+                    name: stylesheets
+                    widget: list
+                    required: false
+                    collapsed: false
+                    fields:
+                      - label: Path
+                        name: path
+                        widget: string
