@@ -1,0 +1,11 @@
+{
+  "page": {
+    "head": {
+      "stylesheets": [
+        {
+          "path": "https://fonts.signalwerk.ch/css/latest/family=Work+Sans:ital,wght@0,100..900;1,100..900.css"
+        }
+      ]
+    }
+  }
+}

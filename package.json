@@ -1,0 +1,18 @@
+{
+  "name": "japan.typography",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npm run dev --workspace signalwerk.documentation.md",
+    "admin": "npm run admin --workspace signalwerk.documentation.md",
+    "build": "npm run build --workspace signalwerk.documentation.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/signalwerk.documentation.md"
+  ],
+  "type": "module"
+}
