@@ -1,9 +1,8 @@
 {
-  "title": "Japan Typography",
+  "title": "Reading unspoken elements in Japanese Typography – An Observation",
   "path": "/",
   "draft": false,
-  "date": "1703840444745",
-
+  "date": "1703972806211",
   "children": [
     {
       "type": "text",
@@ -19,11 +18,7 @@
     },
     {
       "type": "text",
-      "body": "## Source\n### ChatGPT\n* [Title finding](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)"
-    },
-    {
-      "type": "text",
-      "body": "<!--Charlie-->\n\n\nHTML TEST\n\n<CustomElement/><div>\n\n\n<CustomElement>\n\n## Markdown\n<CustomElement/>\n</div>\n</CustomElement>"
+      "body": "## Source\n## Writing Help\nThe following sources document some key-parts where a generative AI was used in a co-authorship. Other parts of this site might also be supported with AI but only as tool to formulate or expand original thoughts by the author.\n* [ChatGPT · Title finding](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)"
     }
   ]
 }
