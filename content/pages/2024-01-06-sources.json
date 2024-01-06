@@ -1,0 +1,12 @@
+{
+  "draft": false,
+  "date": "1704553267148",
+  "title": "Sources",
+  "path": "/sources",
+  "children": [
+    {
+      "type": "text",
+      "body": "TEST [^1][^aber]\n\n[^1]: This is the first footnote.\n[^aber]:\n\n## Source\n\n* [Wikipedia · Japanese punctuation](https://en.wikipedia.org/wiki/Japanese_punctuation)\n* [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)\n\n\n### Writing Help\nThe following sources document some key parts where generative AI was used in co-authorship. Other parts of this site might also be supported with AI, but only as a tool to formulate or expand the author's original thoughts.\n* [ChatGPT · Title finding](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)"
+    }
+  ]
+}
