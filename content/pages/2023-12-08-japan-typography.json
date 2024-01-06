@@ -5,20 +5,43 @@
   "date": "1703972806211",
   "children": [
     {
-      "type": "text",
-      "body": "# Reading unspoken elements in Japanese Typography – An Observation"
+      "type": "box",
+      "preset": "default",
+      "children": [
+        {
+          "type": "text",
+          "body": "### Stefan Huber · <small class=\"regular\">2023 | 2024</small>\n"
+        },
+        {
+          "type": "text",
+          "body": "# Reading unspoken elements in Japanese Typography",
+          "class": "full-width header"
+        },
+        {
+          "type": "text",
+          "body": "## An Observation"
+        }
+      ],
+      "class": "header"
     },
     {
       "type": "text",
-      "body": "- \n\n\n\n[Teilnehmende](https://paul.zhdk.ch/mod/page/view.php?id=74910), die 4 ECTS erlangen müssen, erzielen einen Umfang des schriftlichen Teils von mind. 9–11 A4-Seiten bei 1.5-zeiligem Abstand (zw. 20 000–25 000 Zeichen inkl. Leerzeichen). Mit Abbildungen sollte der Umfang nicht mehr als ca. 30 Seiten betragen (Abweichungen von dieser Vorgaben sind mit der Studienleitung abzusprechen).\n\n\n\n\n\n\n\n\n\n\n[https://paul.zhdk.ch/course/view.php?id=2677](https://paul.zhdk.ch/course/view.php?id=2677)\n\n"
+      "body": "This article provides a formal and analytical exploration of the unspoken elements in Japanese typography, from the viewpoint of a professional with a background in Latin typography. It dives into the subtle, purely typographic and therefore not only in written form relevant features of Japanese script, emphasizing their significance in the broader context of typographic design and communication. The aim is to provide an understanding of these elements and showcasing how they contribute to the overall aesthetics of written Japanese. [^1][^aber]\n\n[^1]: This is the first footnote.\n[^aber]:\n\n## Table of Content\n* Brackets【 】\n* Quotation Marks「」『』\n* Mobile Keyboard – flipman"
     },
     {
       "type": "text",
-      "body": "### CAS Design Cultures 2023\n\n\n\n\n"
+      "body": "\n\n[Teilnehmende](https://paul.zhdk.ch/mod/page/view.php?id=74910), die 4 ECTS erlangen müssen, erzielen einen Umfang des schriftlichen Teils von mind. 9–11 A4-Seiten bei 1.5-zeiligem Abstand (zw. 20 000–25 000 Zeichen inkl. Leerzeichen). Mit Abbildungen sollte der Umfang nicht mehr als ca. 30 Seiten betragen (Abweichungen von dieser Vorgaben sind mit der Studienleitung abzusprechen).\n\n\n\n\n\n\n\n\n\n\n[https://paul.zhdk.ch/course/view.php?id=2677](https://paul.zhdk.ch/course/view.php?id=2677)\n\n",
+      "class": "hidden"
     },
     {
       "type": "text",
-      "body": "## Source\n## Writing Help\nThe following sources document some key-parts where a generative AI was used in a co-authorship. Other parts of this site might also be supported with AI but only as tool to formulate or expand original thoughts by the author.\n* [ChatGPT · Title finding](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)"
+      "body": "### CAS Design Cultures 2023\n\n\n\n\n",
+      "class": "hidden"
+    },
+    {
+      "type": "text",
+      "body": "## Source\n\n* [Wikipedia · Japanese punctuation](https://en.wikipedia.org/wiki/Japanese_punctuation)\n* [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)\n\n\n### Writing Help\nThe following sources document some key-parts where a generative AI was used in a co-authorship. Other parts of this site might also be supported with AI but only as tool to formulate or expand original thoughts by the author.\n* [ChatGPT · Title finding](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)",
+      "class": ""
     }
   ]
 }

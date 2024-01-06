@@ -38,7 +38,8 @@ types:
     fields:
       - label: Body
         name: body
-        widget: markdown
+        # widget: markdown
+        widget: SignalwerkEditor
         required: false
         show_raw: true
       - label: Class
@@ -193,7 +194,11 @@ box: &box
     - label: Type
       name: preset
       widget: select
-      options: ["default", "header", "footer"]
+      options:
+        - value: default
+          label: Default
+        - value: full-width
+          label: Ganze Breite
       default: "default"
     - label: Class
       name: class
@@ -204,7 +209,7 @@ box: &box
 basePage: &basePage
   - *text
   - *image
-  # - *box
+  - *box
   # - *mediaItems
   # - *grid
 
