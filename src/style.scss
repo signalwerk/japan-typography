@@ -72,13 +72,21 @@ h1 {
   font-weight: 400;
   font-style: italic;
   color: var(--color-secondary);
-  font-size: 8vw;
+  font-size: 3rem;
   line-height: 1.1;
 
-  @media (min-width: 768px) {
-    font-size: 7vw;
-    line-height: 1;
+  @media (min-width: 650px) {
     hyphens: none;
+    // font-size: 3.5rem;
+  }
+
+  @media (min-width: 940px) {
+    font-size: 3.5rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 5.5rem;
+    line-height: 1;
   }
 }
 
@@ -134,8 +142,13 @@ a {
 }
 
 .header {
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  @media (min-width: 940px) {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
 }
 
 .full-width {
