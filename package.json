@@ -5,6 +5,7 @@
   "description": "",
   "scripts": {
     "dev": "npm run dev --workspace signalwerk.documentation.md",
+    "dev:watch": "npm run dev:watch --workspace signalwerk.documentation.md",
     "admin": "npm run admin --workspace signalwerk.documentation.md",
     "build": "npm run build --workspace signalwerk.documentation.md"
   },

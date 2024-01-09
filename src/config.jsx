@@ -38,6 +38,12 @@ import React from "react";
 // }
 
 const config = {
+  data: {
+    image: (item) => ({
+      path: item.path.replace("width:130", "width:1500"),
+      ...item,
+    }),
+  },
   // types: {
   //   ":root": root,
   //   page: page,

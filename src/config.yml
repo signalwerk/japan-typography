@@ -10,6 +10,8 @@ local_backend: true
 
 site_url: "https://typography.japan.signalwerk.ch/"
 media_folder: /public/assets/media
+public_folder: "/assets/media"
+
 # media_library:
 #   name: uploadcare
 #   folder_support: true
@@ -53,10 +55,10 @@ types:
     fields:
       - label: Image
         name: path
-        widget: image
+        widget: file
         required: false
         # multiple: true
-      - label: Caption per Image
+      - label: Caption
         name: caption
         widget: string
         required: false
@@ -211,7 +213,7 @@ basePage: &basePage
   - *image
   - *box
   # - *mediaItems
-  # - *grid
+  - *grid
 
 collections:
   - name: pages

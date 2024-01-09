@@ -26,12 +26,43 @@
     },
     {
       "type": "text",
-      "body": "## Introduction\nThis thesis explores the unspoken elements in Japanese typography from the perspective of a typographer familiar with Latin written languages. It delves into the subtle, purely typographic features of Japanese script that are relevant in written form and highlighting their significance in the broader context of typographic design and communication. The goal is to provide an understanding of these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan where most observations were documented. \n\n## Table of Content\n* Brackets\n* Quotation Marks\n* Footnotes\n* Tables\n* Separators and Spacers\n* Mobile Keyboard\n* Checkmarks\n* Marking and Highlights\n* Medium Change (print → internet)\n"
+      "body": "## Introduction\nThis thesis explores the unspoken elements in Japanese typography from the perspective of a typographer familiar with Latin written languages. It delves into the subtle, purely typographic features of Japanese script that are relevant in written form and highlighting their significance in the broader context of typographic design and communication. The goal is to provide an understanding of these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan where most observations were documented. \n\n## Table of Content\n* Brackets\n* Quotation Marks\n* Footnotes\n* Tables\n* Separators and Spacers\n* Mobile Keyboard\n* Checkmarks\n* Marking and Highlights\n* Medium Change (print → internet)"
     },
     {
-      "type": "text",
-      "body": "### CAS Design Cultures 2023\n",
-      "class": "hidden"
+      "type": "grid",
+      "children": [
+        {
+          "cols": 4,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/crop@left:231,top:581.546875,width:3122,height:2081.3333333333335;resize@width:130;/IMG_3246.jpg.jpg",
+              "caption": "Caption 1"
+            }
+          ]
+        },
+        {
+          "cols": 4,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/crop@left:1813,top:854.546875,width:1414.0000000000002,height:942.6666666666669;resize@width:130;/IMG_3246.jpg.jpg",
+              "caption": "Caption 2"
+            }
+          ]
+        },
+        {
+          "cols": 4,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/6ce490fa34814c959a7429f8da7bff58d97522a015ca09b4f88666b9a98a6624/crop@left:0,top:1552.5333333333333,width:1179,height:785.9798611111112;resize@width:130;/IMG_3376.PNG.jpg",
+              "caption": "Caption 3"
+            }
+          ]
+        }
+      ],
+      "class": "full-width"
     }
   ]
 }
