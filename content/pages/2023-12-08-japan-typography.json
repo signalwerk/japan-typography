@@ -6,12 +6,8 @@
   "children": [
     {
       "type": "box",
-      "preset": "default",
+      "preset": "expample",
       "children": [
-        {
-          "type": "text",
-          "body": "### Stefan Huber · <small class=\"regular\">2023 | 2024</small>\n"
-        },
         {
           "type": "text",
           "body": "# Reading unspoken elements in Japanese Typography",
@@ -22,11 +18,12 @@
           "body": "### An Observation"
         }
       ],
-      "class": "header"
+      "class": "header",
+      "title": "Stefan Huber · 2023 | 2024"
     },
     {
       "type": "text",
-      "body": "## Introduction\nThis thesis explores the unspoken elements in Japanese typography from the perspective of a typographer familiar with Latin written languages. It delves into the subtle, purely typographic features of Japanese script that are relevant in written form and highlighting their significance in the broader context of typographic design and communication. The goal is to provide an understanding of these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan where most observations were documented. \n\n## Table of Content\n* Brackets\n* Quotation Marks\n* Footnotes\n* Tables\n* Separators and Spacers\n* Mobile Keyboard\n* Checkmarks\n* Marking and Highlights\n* Medium Change (print → internet)"
+      "body": "## Introduction\nThis thesis explores the unspoken elements in Japanese typography from the perspective of a typographer familiar with Latin written languages. It delves into the subtle, purely typographic features of Japanese script that are relevant in written form and highlighting their significance in the broader context of typographic design and communication. The goal is to provide an understanding of these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis approach is not about cultural borrowing, but rather about the exploration of typographic diversity and its potential to enrich Latin typography. This exploration is aimed at understanding how diverse typographic elements can coexist and enhance each other. It reflects a broader perspective on the potential for typographic elements to evolve and adapt in a globally connected environment.\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan where most observations were documented. \n\n### Table of Content\n* [Brackets](./brackets/)\n* Quotation Marks\n* Footnotes\n* Tables\n* Separators and Spacers\n* Mobile Keyboard\n* Checkmarks\n* Marking and Highlights\n* Medium Change (print → internet)\n* [Sources](./sources/)"
     },
     {
       "type": "grid",

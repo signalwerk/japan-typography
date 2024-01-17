@@ -33,6 +33,27 @@ i18n:
 # define Anchor for all types
 # can be used with *base (Alias)
 types:
+  typoExample: &typoExample
+    label: TypoExampe
+    name: typoExample
+    widget: object
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: false
+      - label: Body
+        name: body
+        widget: string
+        required: false
+      - label: Size
+        name: size
+        widget: string
+        required: false
+      - label: Class
+        name: class
+        widget: string
+        required: false
   text: &text
     label: Text
     name: text
@@ -116,7 +137,7 @@ types:
         search_fields: ["title", "path"]
         display_fields: ["title", "· {{path}}"]
         value_field: "path"
-        condition:
+        condition: # not implemented in decapcms
           field: selectionType
           value: selection
 
@@ -173,6 +194,7 @@ grid: &grid
             - *text
             - *image
             - *mediaItems
+            - *typoExample
           required: false
 
     - label: Grid Class
@@ -191,6 +213,7 @@ box: &box
       types:
         - *text
         - *image
+        - *typoExample
       required: false
       collapsed: false
     - label: Type
@@ -201,16 +224,24 @@ box: &box
           label: Default
         - value: full-width
           label: Ganze Breite
+        - value: expample
+          label: Beipiel
       default: "default"
     - label: Class
       name: class
       widget: string
       required: false
-
+    - label: "Title"
+      name: "title"
+      widget: "string"
+      condition: # not implemented in decapcms
+        field: preset
+        value: expample
 # types for on the children of the page
 basePage: &basePage
   - *text
   - *image
+  - *typoExample
   - *box
   # - *mediaItems
   - *grid
@@ -346,6 +377,15 @@ collections:
                 fields:
                   - label: stylesheets
                     name: stylesheets
+                    widget: list
+                    required: false
+                    collapsed: false
+                    fields:
+                      - label: Path
+                        name: path
+                        widget: string
+                  - label: js
+                    name: js
                     widget: list
                     required: false
                     collapsed: false

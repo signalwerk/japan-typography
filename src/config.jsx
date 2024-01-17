@@ -1,18 +1,33 @@
 import React from "react";
 // import { PageMenu } from "../packages/signalwerk.documentation.md/src/components/helpers/PageMenu/";
 
-// function root(data, { Helmet, processor }) {
-//   if (!data) return null;
-//   return (
-//     <>
-//       <Helmet>
-//         <link rel="stylesheet" href="/style.css" />
-//         <meta name="viewport" content="width=device-width, initial-scale=1" />
-//       </Helmet>
-//       <>{data.children && processor.run(data.children)}</>
-//     </>
-//   );
-// }
+function typoExample(node, configuration) {
+  if (!node) return null;
+
+  // Construct the className string
+  const baseClass = "nodebox";
+  const nodeClass = node.class ? ` ${node.class}` : "";
+  const presetClass = ` nodebox--${node.preset || "default"}`;
+
+  // Combine all class names
+  const className = baseClass + nodeClass + presetClass;
+
+  return (
+    <>
+      {/* <pre>{JSON.stringify({ grid: node }, null, 2)}</pre> */}
+      <div className={className}>
+        <div className="box__header">
+          <div className="box__title">{node.title}</div>
+        </div>
+        <div className="box__inner">
+          <div className="box__content">
+            <>{node.children && configuration.processor.run(node.children)}</>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
 
 // function page(node, { Helmet, processor }) {
 //   if (!node) return null;
@@ -43,6 +58,9 @@ const config = {
       path: item.path.replace("width:130", "width:1500"),
       ...item,
     }),
+  },
+  types: {
+    box: typoExample,
   },
   // types: {
   //   ":root": root,

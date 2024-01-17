@@ -4,3 +4,5 @@
 # parcel
 /.parcel-cache
 /static-copy/data
+/.env
+/static-copy/.env
