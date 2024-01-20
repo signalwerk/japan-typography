@@ -224,9 +224,9 @@ body:after {
     break-inside: avoid; /* Avoid breaking inside the element */
   }
 
-  .typo-example + .node-text {
-    break-before: avoid; /* Avoid breaking before the .node-text if it follows .typo-example */
-  }
+  // .typo-example + .node-text {
+  //   break-before: avoid; /* Avoid breaking before the .node-text if it follows .typo-example */
+  // }
 
   h1 {
     string-set: titleH1 content(text);
