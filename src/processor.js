@@ -3,7 +3,7 @@ const processor = {
     image: (item) => {
       return {
         ...item,
-        path: item.path.replace("width:130", "width:1500"),
+        path: item?.path?.replace("width:130", "width:1500"),
       };
     },
   },

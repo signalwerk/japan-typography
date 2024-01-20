@@ -33,27 +33,6 @@ i18n:
 # define Anchor for all types
 # can be used with *base (Alias)
 types:
-  typoExample: &typoExample
-    label: TypoExampe
-    name: typoExample
-    widget: object
-    fields:
-      - label: Title
-        name: title
-        widget: string
-        required: false
-      - label: Body
-        name: body
-        widget: string
-        required: false
-      - label: Size
-        name: size
-        widget: string
-        required: false
-      - label: Class
-        name: class
-        widget: string
-        required: false
   text: &text
     label: Text
     name: text
@@ -194,7 +173,6 @@ grid: &grid
             - *text
             - *image
             - *mediaItems
-            - *typoExample
           required: false
 
     - label: Grid Class
@@ -213,7 +191,7 @@ box: &box
       types:
         - *text
         - *image
-        - *typoExample
+        - *grid
       required: false
       collapsed: false
     - label: Type
@@ -241,7 +219,6 @@ box: &box
 basePage: &basePage
   - *text
   - *image
-  - *typoExample
   - *box
   # - *mediaItems
   - *grid

@@ -6,55 +6,154 @@
   "children": [
     {
       "type": "text",
-      "body": "## Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. "
+      "body": "## Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding Examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)"
     },
     {
       "type": "box",
       "preset": "expample",
       "children": [
         {
-          "type": "text",
-          "body": "I live in Paris `(`the capital of France`)`."
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "I live in Paris  \n`(`the capital of France`)`.",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Parentheses are used to insert non-essential yet informative asides, offering a subtle typographical division that maintains the sentence's structure."
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Her theory was accepted  \n(see Smith `[`1999`]`, p. 57)",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Square brackets have a more specific role, often used in academic and technical writing or as a second order of structure inside Parentheses."
+                }
+              ]
+            }
+          ]
         }
       ],
-      "class": "full-width",
       "title": "Parentheses in Latin Alphabet"
     },
     {
       "type": "text",
-      "body": "Parentheses are used to insert non-essential yet informative asides, offering a subtle typographical division that maintains the sentence's structure."
+      "body": "In some professional fields, brackets are also used for various purposes beyond the traditional function of brackets."
     },
     {
       "type": "box",
       "preset": "expample",
       "children": [
         {
-          "type": "text",
-          "body": "Her theory was accepted (see Smith `[`1999`]`, p. 57)"
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "The basic structure of a sentence can be represented as; `{`Subject`}` `{`Verb`}` `{`Object`}`.",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Curly brackets are predominantly used in specialized fields like mathematics to group items or alternatives, providing a distinct visual separation in complex textual structures."
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "`<`strong`>`<br>This is important<br>`<`/strong`>`",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Angle brackets, common in technical and computer-related texts, enclose specific elements, offering a clear technical (but also typographical) distinction for specialized content."
+                }
+              ]
+            }
+          ]
         }
       ],
-      "class": "full-width",
-      "title": "Square brackets in Latin Alphabet"
+      "title": "Special cases of Parentheses in Latin Alphabet"
     },
     {
       "type": "text",
-      "body": "Square brackets have a more specific role, often used in academic and technical writing or as a second order of structure inside Parentheses."
+      "body": "### Observations of the Japanese Typography\n\nJapanese typography features a range of brackets, each serving specific aesthetic and functional purposes within the script. This aspect of typographic design showcases the variety and distinct roles these elements play, contributing to the overall structure and style of the script.\n\nDiversity of Bracket Styles: Japanese script features various brackets, such as corner brackets「」/『』, lenticular brackets【】, and tortoise shell brackets〔〕. Each style serves a specific purpose and is selected based on the context and content of the text. \nThe functional aspects of these brackets are diverse. For instance, corner brackets are commonly used for direct speech[^jpn-with-anime] or titles, while lenticular brackets often enclose definitions or explanations. This functional specificity adds a layer of meaning and clarity to the written text.\n\n[^jpn-with-anime]: [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)"
     },
     {
       "type": "box",
       "preset": "expample",
       "children": [
         {
-          "type": "text",
-          "body": "The basic structure of a sentence can be represented as; `{`Subject`}` `{`Verb`}` `{`Object`}`."
+          "type": "grid",
+          "children": [
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/435e5ed052dad3ccd0ce8fbe54f5e6bfd3ee7669676dd3d659911a13cc1fa8f4/crop@left:465.5,top:410.64843749999994,width:3276,height:2184;resize@width:800;/IMG_3136.jpg.jpg",
+                  "caption": "Foto – 30. 10. 2023 10:26 · [rébon Kaisaiyu, Tokyo](https://www.rebon.jp/) · [Map](https://www.google.com/maps/place/35.722211111111115,139.78500277777778)"
+                }
+              ]
+            },
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "#### 「」Corner brackets\nCorner brackets can have multiple functions. In the shown case, they are used as a handling for a title of a specific artwork. Similar to the usage of quotation marks in english/german.\n\n\n`JP`:「ピエロ太陽と傘」  \n`EN`: «Clowns, suns and umbrellas»[^deepL-corner-bracket]\n\n[^deepL-corner-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%8C%E3%83%94%E3%82%A8%E3%83%AD%E5%A4%AA%E9%99%BD%E3%81%A8%E5%82%98%E3%80%8D)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "#### 【】 Lenticular brackets\nIn the screenshot, there is a message displayed for a Tsunami Evacuation Drill sent through cell Broadcast, which is a method commonly used in Emergency communication systems to send messages to multiple mobile telephones (although not commonly used in Switzerland). In the screenshot, there is a message displayed for a Tsunami Evacuation Drill sent through Cell Broadcast. The lenticular brackets are used to categorize and emphasize the following text, acting like a title.\n\nCell Broadcast is a widely used method in emergency communication systems for sending messages to multiple mobile telephones (although it is not commonly used in Switzerland).\n\n\n`JP`:【訓練】兵庫県津波一斉避難訓練  \n`EN`: [Drill] Hyogo Prefecture Simultaneous Tsunami Evacuation Drill.[^deepL-lenticular-bracket]\n\n[^deepL-lenticular-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%90%E8%A8%93%E7%B7%B4%E3%80%91%E5%85%B5%E5%BA%AB%E7%9C%8C%E6%B4%A5%E6%B3%A2%E4%B8%80%E6%96%89%E9%81%BF%E9%9B%A3%E8%A8%93%E7%B7%B4)"
+                }
+              ]
+            },
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/1bc330e3dcb2c68d1600a80ff66594e005d0f00da0a34caf6495d7f71bc3d406/crop@left:0,top:643.7333333333332,width:1179,height:785.9798611111112;resize@width:800;/IMG_3376.PNG.jpg",
+                  "caption": "Screenshot – 02. 11. 2023 10:04 – [Zenbo Seinei, Awaji Island, Japan](https://zenbo-seinei.com/en/) · [Map](https://www.google.com/maps/place/34.57884,134.98534)"
+                }
+              ]
+            }
+          ]
         }
       ],
-      "class": "full-width",
-      "title": "Curly Brackets in Latin Alphabet"
+      "title": "Observations in Japan"
     },
     {
       "type": "text",
-      "body": "Curly brackets are predominantly used in specialized fields like mathematics to group items or alternatives, providing a distinct visual separation in complex textual structures."
+      "body": "### Takeaways\nWith the advent of Unicode and the ease of accessing a vast array of characters from different languages, why shouldn't we embrace the diversity of typographic elements such as Japanese brackets in Latin texts? The unique shapes and aesthetic offers fresh perspectives. Incorporating these elements into Latin typography could enhance the visual appeal of our texts. Especially in formats where we don't have a wide variety of text-formatting at hand. For Example in social media where we can't format the text and therefore are thankfull for a wider range of expression. \n\n\n\n\n"
     },
     {
       "type": "box",
@@ -62,27 +161,8 @@
       "children": [
         {
           "type": "text",
-          "body": "`<`strong`>`<br>This is important<br>`<`/strong`>`"
-        }
-      ],
-      "class": "full-width",
-      "title": "Angle Brackets in Latin Alphabet"
-    },
-    {
-      "type": "text",
-      "body": "Angle brackets, common in technical and computer-related texts, enclose specific elements, offering a clear typographical distinction for specialized content."
-    },
-    {
-      "type": "text",
-      "body": "### Observations of the Japanese Typography\n\nJapanese typography features a range of brackets, each serving specific aesthetic and functional purposes within the script. This aspect of typographic design showcases the variety and distinct roles these elements play, contributing to the overall structure and style of the script.\n\nDiversity of Bracket Styles: Japanese script features various brackets, such as corner brackets「」/『』, lenticular brackets【】, and tortoise shell brackets〔〕. Each style serves a specific purpose and is selected based on the context and content of the text. \nThe functional aspects of these brackets are diverse. For instance, corner brackets are commonly used for direct speech or titles, while lenticular brackets often enclose definitions or explanations. This functional specificity adds a layer of meaning and clarity to the written text.\n\n\n### Takeaways\nWith the advent of Unicode and the ease of accessing a vast array of characters from different languages, why shouldn't we embrace the diversity of typographic elements such as Japanese brackets in Latin texts? The unique shapes and aesthetic offers fresh perspectives. Incorporating these elements into Latin typography could enhance the visual appeal of our texts. Especially in formats where we don't have a wide variety of text-formatting at hand. For Example in social media where we can't format the text and therefore are thankfull for a wider range of expression. \n\n\n\n\n* [Finding Examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)\n"
-    },
-    {
-      "type": "box",
-      "preset": "expample",
-      "children": [
-        {
-          "type": "text",
-          "body": "`「`TODAY`」` Vegan Kitchen!"
+          "body": "`「`TODAY`」` Vegan Kitchen!",
+          "class": "text--typo-example"
         }
       ],
       "title": "Corner brackets used in Latin Alphabet"

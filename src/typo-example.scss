@@ -1,29 +1,19 @@
 .nodebox--expample {
-  line-height: 1.1;
   margin-top: 5rem;
   margin-bottom: 2.5rem;
 
-
-  code {
-    font-family: inherit;
-    color: var(--color-signal);
-  }
+  break-inside: avoid;
 }
 
 .box__inner {
   border-top: 0.7rem solid var(--color-primary);
 
   border-bottom: 0.3rem solid var(--color-primary);
-
-  padding-top: 1.5rem;
-  padding-bottom: 1.7rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .box__title {
-  font-family: "IBM Plex Mono";
-  font-weight: 400;
+  font-family: $fontFamily--default--mono;
+  font-weight: $fontWeight--default--mono--regular;
   font-style: italic;
   background-color: var(--color-primary);
   color: white;
@@ -34,8 +24,19 @@
   transform: translateY(0.25rem);
 }
 
-.box__content {
-  font-family: "Noto Sans JP", "Unicode BMP Fallback", sans-serif;
+.text--typo-example {
+  font-family: $fontFamily--default--sans;
   font-size: var(--typography--size-2);
-  font-weight: 900;
+  font-weight: $fontWeight--default--sans--bold;
+  line-height: 1.1;
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  code {
+    font-family: inherit;
+    color: var(--color-signal);
+  }
 }

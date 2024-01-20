@@ -44,6 +44,10 @@
   }
 }
 
+@page:left {
+  --column-left: calc(10% + var(--text-indent));
+}
+
 ::selection {
   background: var(--color-primary);
   color: white;
@@ -98,9 +102,14 @@ a {
 //   padding-bottom: 2rem;
 // }
 
-.full-width {
+.nodebox--expample {
   padding-left: 0.9em;
   padding-right: 0.9em;
+
+  @include media(print) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .node-page {
@@ -111,6 +120,7 @@ a {
 }
 
 .node-page > .node-text,
+.node-page > .node-page__footnotes,
 .node-page > .node-grid {
   &:not(.full-width) {
     width: var(--column-width);
@@ -144,6 +154,12 @@ small {
 
 .regular {
   font-weight: 400;
+}
+
+
+.node-image__caption {
+  margin-top: 0.5em;
+  // margin-bottom: 1em;
 }
 
 // node-grid
@@ -199,26 +215,15 @@ body:after {
 }
 
 @include media(print) {
-  @page {
-    size: A4;
-    margin-top: 20mm;
-    margin-bottom: 35mm;
-    margin-left: 30mm;
-    margin-right: 12mm;
-  }
-
   table,
   figure {
     page-break-inside: avoid;
   }
 
-  // h1 {
-  //   page-break-before: always;
-  // }
-
   .typo-example {
     break-inside: avoid; /* Avoid breaking inside the element */
   }
+
   .typo-example + .node-text {
     break-before: avoid; /* Avoid breaking before the .node-text if it follows .typo-example */
   }
@@ -231,16 +236,46 @@ body:after {
   }
 
   @page {
+    size: A4;
+    margin-top: 20mm;
+    margin-bottom: 35mm;
+    margin-left: 30mm;
+    margin-right: 12mm;
+  }
+
+  @page {
     @bottom-left {
-      content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
       vertical-align: bottom;
       margin-bottom: 15mm;
     }
-
     @bottom-right {
-      content: counter(page) " | " counter(pages);
       vertical-align: bottom;
       margin-bottom: 15mm;
+    }
+  }
+
+  /* right pages (recto) */
+  @page:right {
+    @bottom-left {
+      content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
+      font-size: 0.8em;
+    }
+    @bottom-right {
+      content: counter(page) " | " counter(pages);
+    }
+  }
+
+  /* left pages (verso) */
+  @page:left {
+    margin-left: 12mm;
+    margin-right: 30mm;
+
+    @bottom-left {
+      content: counter(page) " | " counter(pages);
+    }
+    @bottom-right {
+      content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
+      font-size: 0.8em;
     }
   }
 }
