@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/style.css?bust=649f50" />
+    <link rel="stylesheet" href="/style.css?bust=ad6b9c" />
   </head>
   <body>
     <div id="app">
@@ -47,43 +47,11 @@
               >
             </p>
             <p>
-              <span>TEST </span><sup class="footnote-reference">!<!-- -->1</sup
-              ><sup class="footnote-reference">!<!-- -->2</sup>
+              <span>TEST </span
+              ><sup class="footnote-reference" data-id="1">1</sup
+              ><sup class="footnote-reference" data-id="aber">2</sup>
             </p>
-            <p>
-              !!! ERROR Unsupported node type:
-              <!-- -->footnoteDefinition
-            </p>
-            <pre>
-{
-  &quot;type&quot;: &quot;footnoteDefinition&quot;,
-  &quot;identifier&quot;: &quot;1&quot;,
-  &quot;label&quot;: &quot;1&quot;,
-  &quot;children&quot;: [
-    {
-      &quot;type&quot;: &quot;paragraph&quot;,
-      &quot;children&quot;: [
-        {
-          &quot;type&quot;: &quot;text&quot;,
-          &quot;value&quot;: &quot;This is the first footnote.&quot;
-        }
-      ]
-    }
-  ]
-}</pre
-            >
-            <p>
-              !!! ERROR Unsupported node type:
-              <!-- -->footnoteDefinition
-            </p>
-            <pre>
-{
-  &quot;type&quot;: &quot;footnoteDefinition&quot;,
-  &quot;identifier&quot;: &quot;aber&quot;,
-  &quot;label&quot;: &quot;aber&quot;,
-  &quot;children&quot;: []
-}</pre
-            >
+            <div class="footnote-definition" data-id="aber"></div>
             <h2><span>Source</span></h2>
             <ul>
               <li>
@@ -96,27 +64,6 @@
                   >
                 </p>
               </li>
-              <li>
-                <p>
-                  <a
-                    href="https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html"
-                    target="_blank"
-                    rel="noreferrer"
-                    ><span>Japanese with Anime · Quotation Marks</span></a
-                  >
-                </p>
-              </li>
-            </ul>
-            <h3><span>Writing Help</span></h3>
-            <p>
-              <span
-                >The following sources document some key parts where generative
-                AI was used in co-authorship. Other parts of this site might
-                also be supported with AI, but only as a tool to formulate or
-                expand the author&#x27;s original thoughts.</span
-              >
-            </p>
-            <ul>
               <li>
                 <p>
                   <a
@@ -140,6 +87,17 @@
             </ul>
           </div>
         </div>
+        <ol class="node-page__footnotes">
+          <li id="fn-def-undefined">
+            <div class="node-text">
+              <div class="text">
+                <div class="footnote-definition" data-id="1">
+                  <p><span>This is the first footnote.</span></p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ol>
       </div>
     </div>
   </body>
