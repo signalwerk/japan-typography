@@ -156,7 +156,6 @@ small {
   font-weight: 400;
 }
 
-
 .node-image__caption {
   margin-top: 0.5em;
   // margin-bottom: 1em;
@@ -257,11 +256,13 @@ body:after {
   /* right pages (recto) */
   @page:right {
     @bottom-left {
-      content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
+      content: string(titleH1) " · " string(titleH2);
+      // content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
       font-size: 0.8em;
     }
     @bottom-right {
-      content: counter(page) " | " counter(pages);
+      content: counter(page);
+      // content: counter(page) " | " counter(pages);
     }
   }
 
@@ -271,10 +272,12 @@ body:after {
     margin-right: 30mm;
 
     @bottom-left {
-      content: counter(page) " | " counter(pages);
+      content: counter(page);
+      // content: counter(page) " | " counter(pages);
     }
     @bottom-right {
-      content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
+      // content: "Stefan Huber · 2024  · " string(titleH1) " · " string(titleH2);
+      content: "Stefan Huber · 2024";
       font-size: 0.8em;
     }
   }
