@@ -11,10 +11,10 @@ rm -rf out.pdf
 # Define variables for measurements in millimeters
 paperWidth_mm=210
 paperHeight_mm=297
-marginTop_mm=10
-marginBottom_mm=10
-marginLeft_mm=10
-marginRight_mm=10
+marginTop_mm=0
+marginBottom_mm=0
+marginLeft_mm=0
+marginRight_mm=0
 
 # Calculate the conversion factor from millimeters to inches
 mm_to_inch=$(bc -l <<< "1/25.4")
@@ -44,15 +44,19 @@ echo "marginBottom: $marginBottom"
 
 # Use the converted variables in the curl command
     # --request POST 'http://localhost:8084/forms/chromium/convert/url' \
+    # --form "url=https://webhook.site/eb4c719d-4028-4cb2-8586-0d7988940b79" \
+    # --form "url=https://paged.signalwerk.workers.dev/" \
+    # --form 'extraHttpHeaders="{\"x-origin-hostname\": \"typography.japan.signalwerk.ch\"}"' \
+    # --form 'waitDelay="5s"' \
 curl \
 --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
     --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
-    --form "url=https://typography.japan.signalwerk.ch/" \
+    --form "url=https://paged.signalwerk.workers.dev/brackets/?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
     --form "paperWidth=$paperWidth" \
     --form "paperHeight=$paperHeight" \
-    --form "marginTop=$marginTop" \
-    --form "marginBottom=$marginBottom" \
-    --form "marginLeft=$marginLeft" \
-    --form "marginRight=$marginRight" \
-    --form "preferCssPageSize=true" \
+    --form "marginTop=0" \
+    --form "marginBottom=0" \
+    --form "marginLeft=0" \
+    --form "marginRight=0" \
+    --form 'waitDelay="1s"' \
 -o "$current_dir/main.pdf"

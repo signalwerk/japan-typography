@@ -16,6 +16,5 @@
   "workspaces": [
     "packages/signalwerk.documentation.md"
   ],
-  "browserslist": "last 3 years",
   "type": "module"
 }
