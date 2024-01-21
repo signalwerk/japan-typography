@@ -6,4 +6,4 @@
 /static-copy/data
 /.env
 /static-copy/.env
-/static-copy/*.pdf
+/static-copy/**/*.pdf

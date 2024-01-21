@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+# Array of pages to be converted to PDF
+pages=("" "/brackets" "/reference-mark" "/typographic-strategies-for-webpage-integrations")
+
+
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Load the .env file
@@ -42,21 +47,63 @@ echo "paperHeight: $paperHeight"
 echo "marginTop: $marginTop"
 echo "marginBottom: $marginBottom"
 
-# Use the converted variables in the curl command
-    # --request POST 'http://localhost:8084/forms/chromium/convert/url' \
-    # --form "url=https://webhook.site/eb4c719d-4028-4cb2-8586-0d7988940b79" \
-    # --form "url=https://paged.signalwerk.workers.dev/" \
-    # --form 'extraHttpHeaders="{\"x-origin-hostname\": \"typography.japan.signalwerk.ch\"}"' \
-    # --form 'waitDelay="5s"' \
-curl \
---user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
-    --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
-    --form "url=https://paged.signalwerk.workers.dev/brackets/?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
-    --form "paperWidth=$paperWidth" \
-    --form "paperHeight=$paperHeight" \
-    --form "marginTop=0" \
-    --form "marginBottom=0" \
-    --form "marginLeft=0" \
-    --form "marginRight=0" \
-    --form 'waitDelay="1s"' \
--o "$current_dir/main.pdf"
+
+
+
+convert_to_pdf() {
+    local page=$1
+    local file=${1:-"/index"} 
+
+    local pdf_path="$current_dir/pdf${file}.pdf"
+    curl \
+        --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
+        --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
+        --form "url=https://paged.signalwerk.workers.dev${page}/?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
+        --form "paperWidth=$paperWidth" \
+        --form "paperHeight=$paperHeight" \
+        --form "marginTop=0" \
+        --form "marginBottom=0" \
+        --form "marginLeft=0" \
+        --form "marginRight=0" \
+        --form 'waitDelay="1s"' \
+        -o "$pdf_path"
+
+
+}
+
+merge_pdfs() {
+    local output_file=${1:-"merged.pdf"}  # Default output filename
+    local temp_dir="$current_dir/pdf/.temp"
+    mkdir -p "$temp_dir"
+
+    # Create temporary numbered copies and prepare the --form string for curl
+    local form_files=()
+    local count=1
+    for page in "${pages[@]}"; do
+        local original_pdf="$current_dir/pdf/${page:-"index"}.pdf"
+        local temp_pdf="$temp_dir/$(printf "%05d" $count).pdf"
+        cp "$original_pdf" "$temp_pdf"
+        form_files+=(--form "files=@$temp_pdf")
+        ((count++))
+    done
+
+    # Merge PDFs using curl
+    curl \
+        --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
+        --request POST \
+        --url 'https://html2pdf.srv.signalwerk.ch/forms/pdfengines/merge' \
+        "${form_files[@]}" \
+        -o "$current_dir/pdf/$output_file"
+
+    # Clean up temporary files
+    rm -rf "$temp_dir"
+}
+
+
+# Convert each page to PDF
+for page in "${pages[@]}"; do
+    convert_to_pdf "$page"
+done
+
+# Merge the generated PDFs
+merge_pdfs "_merged.pdf"
