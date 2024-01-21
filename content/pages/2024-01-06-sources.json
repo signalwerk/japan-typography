@@ -6,7 +6,7 @@
   "children": [
     {
       "type": "text",
-      "body": "Tanaka Ikko and the Japanese Modern Typography – https://www.youtube.com/watch?v=4q4gycuJhks\n\nhttps://en.wikipedia.org/wiki/List_of_Japanese_typographic_symbols\n\nTEST [^1][^aber]\n\n[^1]: This is the first footnote.\n[^aber]:\n\n## Source\n\n* [Wikipedia · Japanese punctuation](https://en.wikipedia.org/wiki/Japanese_punctuation)\n\n\n\n\n* [ChatGPT · Title finding](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)\n* [Finding Examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)"
+      "body": "Tanaka Ikko and the Japanese Modern Typography – https://www.youtube.com/watch?v=4q4gycuJhks\n\nhttps://en.wikipedia.org/wiki/List_of_Japanese_typographic_symbols\n\nTEST [^1][^aber]\n\n[^1]: This is the first footnote.\n[^aber]:\n\n## Source\n\n"
     }
   ]
 }

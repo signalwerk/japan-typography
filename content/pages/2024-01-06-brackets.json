@@ -6,7 +6,7 @@
   "children": [
     {
       "type": "text",
-      "body": "## Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding Examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)"
+      "body": "## Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding Examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)\n\n\n"
     },
     {
       "type": "box",
@@ -94,7 +94,7 @@
     },
     {
       "type": "text",
-      "body": "### Observations of the Japanese Typography\n\nJapanese typography features a range of brackets, each serving specific aesthetic and functional purposes within the script. This aspect of typographic design showcases the variety and distinct roles these elements play, contributing to the overall structure and style of the script.\n\nDiversity of Bracket Styles: Japanese script features various brackets, such as corner brackets「」/『』, lenticular brackets【】, and tortoise shell brackets〔〕. Each style serves a specific purpose and is selected based on the context and content of the text. \nThe functional aspects of these brackets are diverse. For instance, corner brackets are commonly used for direct speech[^jpn-with-anime] or titles, while lenticular brackets often enclose definitions or explanations. This functional specificity adds a layer of meaning and clarity to the written text.\n\n[^jpn-with-anime]: [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)"
+      "body": "### Observations of the Japanese Typography\n\nJapanese typography features a range of brackets[^wiki-japanese-punctuation], each serving specific aesthetic and functional purposes within the script. This aspect of typographic design showcases the variety and distinct roles these elements play, contributing to the overall structure and style of the script.\n\nDiversity of Bracket Styles: Japanese script features various brackets, such as corner brackets「」/『』, lenticular brackets【】, and tortoise shell brackets〔〕. Each style serves a specific purpose and is selected based on the context and content of the text. \nThe functional aspects of these brackets are diverse. For instance, corner brackets are commonly used for direct speech[^jpn-with-anime] or titles, while lenticular brackets often enclose definitions or explanations. This functional specificity adds a layer of meaning and clarity to the written text.\n\n[^jpn-with-anime]: [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)\n[^wiki-japanese-punctuation]: [Wikipedia · Japanese punctuation](https://en.wikipedia.org/wiki/Japanese_punctuation)\n"
     },
     {
       "type": "box",
@@ -155,7 +155,7 @@
     },
     {
       "type": "text",
-      "body": "### Takeaways\nWith the advent of Unicode and the ease of accessing a vast array of characters from different languages, why shouldn't we embrace the diversity of typographic elements such as Japanese brackets in Latin texts? The unique shapes and aesthetic offers fresh perspectives. Incorporating these elements into Latin typography could enhance the visual appeal of our texts. Especially in formats where we don't have a wide variety of text-formatting at hand. For Example in social media where we can't format the text and therefore are thankfull for a wider range of expression. \n\n\n\n\n"
+      "body": "### Takeaways\nWith the advent of Unicode and the ease of accessing a vast array of characters from different languages, why shouldn't we embrace the diversity of typographic elements such as Japanese brackets in Latin texts? The unique shapes and aesthetic offers fresh perspectives. Incorporating these elements into Latin typography could enhance the visual appeal of our texts. Especially in formats where we don't have a wide variety of text-formatting at hand. For Example in social media where we can't format the text and therefore are thankfull for a wider range of expression. \n\n"
     },
     {
       "type": "box",

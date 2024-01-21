@@ -1,0 +1,85 @@
+{
+  "draft": false,
+  "date": "1705857560675",
+  "title": "Markers of Approval and Disapproval",
+  "children": [
+    {
+      "type": "text",
+      "body": "## Markers of Approval and Disapproval\n\nIn typography, the symbols used to represent concepts can vary significantly between cultures. In the Western world, the cross (✕) and checkmark (✓) are commonly used to denote incorrect and correct items, respectively.\nThe cross (✕), has evolved to become a universal sign of error or disagreement in the context of the Latin alphabet. Similarly, the checkmark (✓), originating as a mark of confirmation or correctness, is well understood in the western world. In Japan, different symbols are used for similar purposes."
+    },
+    {
+      "type": "text",
+      "body": "### Observations of the Japanese symbols\nIn Japan, a circle (〇) is often used to indicate that something is correct or acceptable, akin to the checkmark in the Western context. The circle, known as «maru» in Japanese, signifies approval or completion. Double Line (✕) is used for marking something wrong or incorrect, the Japanese often use a double line or a variation of the Western cross. Known as «batsu», it is similar in use to the Western cross.\n\nOther Symbols: Japanese typography may also use other symbols for specific contexts, like in grading or feedback forms. The symbol of a bullseye (◎) is called «nijūmaru» and often used to denote excellence or superiority, A triangle (△) can carry the meaning «so-so» and is named «sankaku»\n\n\nFor instance, a triangle might be used to denote something that needs attention or improvement.\n\n"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaway\n\nThe exploration of Japanese and Western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides, and the need for sensitivity and awareness in their application across diverse cultural landscapes."
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "crop": "crop@left:290.8921658522052,top:690.5708333333334,width:1661.075047262549,height:1107.3542046144507;",
+                  "path": "https://media.signalwerk.ch/japanese-typography/21a5ec12f69de16538552c53c633cbf66f0e4c2fbce8b0c5ddaddce3fda824da/resize@width:250;/michal-ilenda-UzwsrV3bFdU-unsplash.jpg.jpg",
+                  "caption": "Sony Playstation 4 controller · [Michal Ilenda – Unsplash](https://unsplash.com/photos/black-sony-ps-4-game-controller-UzwsrV3bFdU)"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Prominente use case of Japnese symbols in the western culture"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
+                  "crop": "rotate@angle:1.7;crop@left:236.9056188451194,top:576.0214773833518,width:3223.352207922989,height:2148.9645798919837;",
+                  "caption": "31. 10. 2023 06:09 · Infor-Screen [Train station Tokyo, Japan](https://www.google.com/maps/place/35.6806,139.7669527777778)"
+                }
+              ]
+            },
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
+                  "crop": "rotate@angle:1.7;crop@left:1493.2232945389344,top:913.1076762170951,width:1084.022680170092,height:722.7030101641193;",
+                  "caption": "detail view"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "path": "/markers-of-approval-disapproval/"
+}

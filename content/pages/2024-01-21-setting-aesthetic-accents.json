@@ -1,0 +1,47 @@
+{
+  "draft": false,
+  "date": "1705863229985",
+  "children": [
+    {
+      "type": "text",
+      "body": "## Setting aesthetic accents\n[^gpt-setting-aesthetic-accents]\n\n\n\n\n[^gpt-setting-aesthetic-accents]: [ChatGPT finding a tilte for «Setting aesthetic accents»](https://chat.openai.com/share/5f01e089-efbc-439e-bcfe-f1bfb978b2bc)"
+    },
+    {
+      "type": "image",
+      "caption": "28. 10. 2023 17:47 · Ticket · [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66513888888889,139.7268222222222)",
+      "path": "https://media.signalwerk.ch/japanese-typography/191547a2dbca5eec8dc99d138eff001c3c2656bf0840c9577df49bdacb2e1c11/resize@width:250;/IMG_3068.jpg.jpg",
+      "crop": "rotate@angle:1;crop@left:90.99728037964866,top:68.06936639894859,width:2473.235173747126,height:3709.780468742698;"
+    },
+    {
+      "type": "image",
+      "path": "https://media.signalwerk.ch/japanese-typography/f3a73e52c7815df1cfe42e5dbfd0474c45ce3fe2b26bb216e409fa474dd4b62c/resize@width:250;/IMG_3073.jpg.jpg",
+      "crop": "crop@left:433.6888888888889,top:10.577777777777778,width:3754.229629629629,height:5631.344444444444;",
+      "caption": "28. 10. 2023 17:53 · [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66488611111111,139.72653333333332) · Address: The National Art Center, Tokyo, 国立新美術館 西門, Roppongi 7-chome, Roppongi, Azabu, Minato, Tokyo, 106-0033, Japan"
+    },
+    {
+      "type": "image",
+      "path": "https://media.signalwerk.ch/japanese-typography/684e59b92d3eb63a555093234bae7001f57b78890e0aeff8126e529a55eca9c6/resize@width:250;/IMG_3099.jpg.jpg",
+      "crop": "crop@left:425.75555555555553,top:0,width:3741.8888888888887,height:5612.833333333333;"
+    },
+    {
+      "type": "image",
+      "path": "https://media.signalwerk.ch/japanese-typography/2471b02750c8f2742e8ee2e29135677c7516e0e6c090baab46444a1f21cd89a7/resize@width:250;/IMG_3123.jpg.jpg",
+      "crop": "crop@left:0,top:247.91666666666666,width:5712,height:3808;",
+      "caption": "30. 10. 2023 09:49 · Signage · [Tokyo, Japan](https://www.google.com/maps/place/35.72645555555556,139.78803888888888)"
+    },
+    {
+      "type": "image",
+      "path": "https://media.signalwerk.ch/japanese-typography/6bf645ba20676a18849021ad6f55c3bcda88c6c76d32b7643da2dc22a498176c/resize@width:250;/IMG_3124.jpg.jpg",
+      "crop": "rotate@angle:0.6;crop@left:449.73030707576584,top:787.7976019009164,width:3103.1391188227844,height:2068.802696310467;",
+      "caption": "Detail view"
+    },
+    {
+      "type": "image",
+      "crop": "crop@left:728.875,top:119,width:4918.666666666667,height:3279.1111111111113;",
+      "caption": "30. 10. 2023 15:24 · Menu · [National Museum of Western Art, Tokyo, Japan](https://www.google.com/maps/place/35.714938888888895,139.77548333333334)",
+      "path": "https://media.signalwerk.ch/japanese-typography/4767868d4e3b301a38b736ed632c4cf4356d8c734aca715e8377f87d793023c2/resize@width:250;/IMG_3196.jpg.jpg"
+    }
+  ],
+  "title": "Setting aesthetic accents",
+  "path": "/setting-aesthetic-accents/"
+}
