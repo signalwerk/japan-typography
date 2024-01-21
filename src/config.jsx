@@ -53,12 +53,20 @@ function typoExample(node, configuration) {
 // }
 
 const config = {
-  data: {
-    image: (item) => ({
-      path: item.path.replace("width:130", "width:1500"),
-      ...item,
-    }),
-  },
+  // data: {
+  //   image: (item) => {
+  //     let path = item.path;
+  //     path = path.replace("resize@width:130;", "resize@width:1500;");
+  //     if (item.crop) {
+  //       path = path.replace("/resize@", `/${item.crop}resize@`);
+  //     }
+
+  //     return {
+  //       ...item,
+  //       path,
+  //     };
+  //   },
+  // },
   types: {
     box: typoExample,
   },

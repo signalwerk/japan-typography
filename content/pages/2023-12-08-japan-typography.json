@@ -23,7 +23,7 @@
     },
     {
       "type": "text",
-      "body": "## Introduction\nThis thesis explores the unspoken elements in Japanese typography from the perspective of a typographer familiar with Latin written languages. It delves into the subtle, purely typographic features of Japanese script that are relevant in written form and highlighting their significance in the broader context of typographic design and communication. The goal is to provide an understanding of these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis approach is not about cultural borrowing, but rather about the exploration of typographic diversity and its potential to enrich Latin typography. This exploration is aimed at understanding how diverse typographic elements can coexist and enhance each other. It reflects a broader perspective on the potential for typographic elements to evolve and adapt in a globally connected environment.\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan where most observations were documented. Generative AI was used in co-authorship and is clearly marked with footnote where the AI had a creative process. Other parts of this site might also be supported with AI, but only as a tool to formulate or expand the author's original thoughts.\n\n### Table of Content\n* [Brackets](./brackets/)\n* Footnotes\n* Mobile Keyboard\n* Medium Change (print → internet)\n* Checkmarks\n* Marking and Highlights\n* Tables\n* Separators and Spacers\n* [Sources](./sources/)\n\nCopyright!\nPDF/A-1 ISO 19005-1"
+      "body": "## Introduction\nThis thesis explores the unspoken elements in Japanese typography from the perspective of a typographer familiar with Latin written languages. It delves into the subtle, purely typographic features of Japanese script that are relevant in written form and highlighting their significance in the broader context of typographic design and communication. The goal is to provide an understanding of these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis approach is not about cultural borrowing, but rather about the exploration of typographic diversity and its potential to enrich Latin typography. This exploration is aimed at understanding how diverse typographic elements can coexist and enhance each other. It reflects a broader perspective on the potential for typographic elements to evolve and adapt in a globally connected environment.\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan where most observations were documented. Generative AI was used in co-authorship and is clearly marked with footnote where the AI had a creative process. Other parts of this site might also be supported with AI, but only as a tool to formulate or expand the author's original thoughts.\n\n### Table of Content\n* [Brackets](./brackets/)\n* [Reference mark](./reference-mark/)\n* Mobile Keyboard\n* Medium Change (print → internet)\n* Checkmarks\n* Marking and Highlights\n* Tables\n* Separators, Spacers and writing direction\n* [Sources](./sources/)\n\nCopyright!\nPDF/A-1 ISO 19005-1\n\n\ncomparison to latin alphabet (not one unit. but more similar than compared to japan)"
     },
     {
       "type": "grid",
@@ -33,7 +33,8 @@
           "children": [
             {
               "type": "image",
-              "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/rotate@angle:1.7;crop@left:236.9056188451194,top:576.0214773833518,width:3223.352207922989,height:2148.9645798919837;resize@width:800;/IMG_3246.jpg.jpg",
+              "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
+              "crop": "rotate@angle:1.7;crop@left:236.9056188451194,top:576.0214773833518,width:3223.352207922989,height:2148.9645798919837;",
               "caption": "Caption 1"
             }
           ]
@@ -43,7 +44,8 @@
           "children": [
             {
               "type": "image",
-              "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/rotate@angle:1.7;crop@left:1493.2232945389344,top:913.1076762170951,width:1084.022680170092,height:722.7030101641193;resize@width:800;/IMG_3246.jpg.jpg",
+              "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
+              "crop": "rotate@angle:1.7;crop@left:1493.2232945389344,top:913.1076762170951,width:1084.022680170092,height:722.7030101641193;",
               "caption": "Caption 2"
             }
           ]
@@ -53,7 +55,8 @@
           "children": [
             {
               "type": "image",
-              "path": "https://media.signalwerk.ch/japanese-typography/6ce490fa34814c959a7429f8da7bff58d97522a015ca09b4f88666b9a98a6624/crop@left:0,top:1552.5333333333333,width:1179,height:785.9798611111112;resize@width:130;/IMG_3376.PNG.jpg",
+              "path": "https://media.signalwerk.ch/japanese-typography/6ce490fa34814c959a7429f8da7bff58d97522a015ca09b4f88666b9a98a6624/resize@width:130;/IMG_3376.PNG.jpg",
+              "crop": "crop@left:0,top:1552.5333333333333,width:1179,height:785.9798611111112;",
               "caption": "Caption 3"
             }
           ]

@@ -46,7 +46,7 @@
           ]
         }
       ],
-      "title": "Parentheses in Latin Alphabet"
+      "title": "Brackets in Latin Alphabet"
     },
     {
       "type": "text",
@@ -90,7 +90,7 @@
           ]
         }
       ],
-      "title": "Special cases of Parentheses in Latin Alphabet"
+      "title": "Special cases of Brackets in Latin Alphabet"
     },
     {
       "type": "text",
@@ -108,8 +108,9 @@
               "children": [
                 {
                   "type": "image",
-                  "path": "https://media.signalwerk.ch/japanese-typography/435e5ed052dad3ccd0ce8fbe54f5e6bfd3ee7669676dd3d659911a13cc1fa8f4/crop@left:465.5,top:410.64843749999994,width:3276,height:2184;resize@width:800;/IMG_3136.jpg.jpg",
-                  "caption": "Foto – 30. 10. 2023 10:26 · [rébon Kaisaiyu, Tokyo](https://www.rebon.jp/) · [Map](https://www.google.com/maps/place/35.722211111111115,139.78500277777778)"
+                  "path": "https://media.signalwerk.ch/japanese-typography/435e5ed052dad3ccd0ce8fbe54f5e6bfd3ee7669676dd3d659911a13cc1fa8f4/resize@width:130;/IMG_3136.jpg.jpg",
+                  "crop": "crop@left:465.5,top:410.64843749999994,width:3276,height:2184;",
+                  "caption": "30. 10. 2023 10:26 · [Foto – rébon Kaisaiyu, Tokyo](https://www.rebon.jp/) · [Map](https://www.google.com/maps/place/35.722211111111115,139.78500277777778)"
                 }
               ]
             },
@@ -118,7 +119,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "#### 「」Corner brackets\nCorner brackets can have multiple functions. In the shown case, they are used as a handling for a title of a specific artwork. Similar to the usage of quotation marks in english/german.\n\n\n`JP`:「ピエロ太陽と傘」  \n`EN`: «Clowns, suns and umbrellas»[^deepL-corner-bracket]\n\n[^deepL-corner-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%8C%E3%83%94%E3%82%A8%E3%83%AD%E5%A4%AA%E9%99%BD%E3%81%A8%E5%82%98%E3%80%8D)"
+                  "body": "#### 「」Corner brackets\nCorner brackets can have multiple functions. In the shown case, they are used as a handling for a title of a specific artwork. Similar to the usage of quotation marks in english/german.\n\n---\n\n`JP`:「ピエロ太陽と傘」  \n`EN`: «Clowns, suns and umbrellas»[^deepL-corner-bracket]\n\n[^deepL-corner-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%8C%E3%83%94%E3%82%A8%E3%83%AD%E5%A4%AA%E9%99%BD%E3%81%A8%E5%82%98%E3%80%8D)"
                 }
               ]
             }
@@ -132,7 +133,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "#### 【】 Lenticular brackets\nIn the screenshot, there is a message displayed for a Tsunami Evacuation Drill sent through cell Broadcast, which is a method commonly used in Emergency communication systems to send messages to multiple mobile telephones (although not commonly used in Switzerland). In the screenshot, there is a message displayed for a Tsunami Evacuation Drill sent through Cell Broadcast. The lenticular brackets are used to categorize and emphasize the following text, acting like a title.\n\nCell Broadcast is a widely used method in emergency communication systems for sending messages to multiple mobile telephones (although it is not commonly used in Switzerland).\n\n\n`JP`:【訓練】兵庫県津波一斉避難訓練  \n`EN`: [Drill] Hyogo Prefecture Simultaneous Tsunami Evacuation Drill.[^deepL-lenticular-bracket]\n\n[^deepL-lenticular-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%90%E8%A8%93%E7%B7%B4%E3%80%91%E5%85%B5%E5%BA%AB%E7%9C%8C%E6%B4%A5%E6%B3%A2%E4%B8%80%E6%96%89%E9%81%BF%E9%9B%A3%E8%A8%93%E7%B7%B4)"
+                  "body": "#### 【】 Lenticular brackets\nIn the screenshot, there is a message displayed for a Tsunami Evacuation Drill sent through cell Broadcast, which is a method commonly used in Emergency communication systems to send messages to multiple mobile telephones (although not commonly used in Switzerland). In the screenshot, there is a message displayed for a Tsunami Evacuation Drill sent through Cell Broadcast. The lenticular brackets are used to categorize and emphasize the following text, acting like a title.\n\nCell Broadcast is a widely used method in emergency communication systems for sending messages to multiple mobile telephones (although it is not commonly used in Switzerland).\n\n\n---\n\n`JP`:【訓練】兵庫県津波一斉避難訓練  \n`EN`: [Drill] Hyogo Prefecture Simultaneous Tsunami Evacuation Drill.[^deepL-lenticular-bracket]\n\n[^deepL-lenticular-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%90%E8%A8%93%E7%B7%B4%E3%80%91%E5%85%B5%E5%BA%AB%E7%9C%8C%E6%B4%A5%E6%B3%A2%E4%B8%80%E6%96%89%E9%81%BF%E9%9B%A3%E8%A8%93%E7%B7%B4)"
                 }
               ]
             },
@@ -141,8 +142,9 @@
               "children": [
                 {
                   "type": "image",
-                  "path": "https://media.signalwerk.ch/japanese-typography/1bc330e3dcb2c68d1600a80ff66594e005d0f00da0a34caf6495d7f71bc3d406/crop@left:0,top:643.7333333333332,width:1179,height:785.9798611111112;resize@width:800;/IMG_3376.PNG.jpg",
-                  "caption": "Screenshot – 02. 11. 2023 10:04 – [Zenbo Seinei, Awaji Island, Japan](https://zenbo-seinei.com/en/) · [Map](https://www.google.com/maps/place/34.57884,134.98534)"
+                  "path": "https://media.signalwerk.ch/japanese-typography/1bc330e3dcb2c68d1600a80ff66594e005d0f00da0a34caf6495d7f71bc3d406/resize@width:130;/IMG_3376.PNG.jpg",
+                  "crop": "crop@left:0,top:643.7333333333332,width:1179,height:785.9798611111112;",
+                  "caption": "02. 11. 2023 10:04 · [Screenshot – Zenbo Seinei, Awaji Island, Japan](https://zenbo-seinei.com/en/) · [Map](https://www.google.com/maps/place/34.57884,134.98534)"
                 }
               ]
             }

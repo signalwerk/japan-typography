@@ -1,9 +1,11 @@
 @import url("https://fonts.signalwerk.ch/css/latest/family=Unicode+BMP+Fallback.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); // for aldus leave ❦
 
 @import "./Breakpoints/mixins.scss";
 @import "./typography.scss";
-@import "./list.scss";
+@import "./styles/list.scss";
+@import "./styles/hr.scss";
 @import "./typo-example.scss";
 
 :root {

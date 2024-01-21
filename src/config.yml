@@ -62,6 +62,10 @@ types:
         name: caption
         widget: string
         required: false
+      - label: Crop
+        name: crop
+        widget: string
+        required: false
       - label: Alternative Text (accessibility)
         name: alt
         widget: string
