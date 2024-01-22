@@ -2,7 +2,7 @@
 
 
 # Array of pages to be converted to PDF
-pages=("" "/brackets" "/reference-mark" "/typographic-strategies-for-webpage-integrations" "/setting-aesthetic-accents")
+pages=("" "/brackets" "/reference-mark" "/markers-of-approval-disapproval" "/typographic-strategies-for-webpage-integrations" "/setting-aesthetic-accents")
 
 
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
