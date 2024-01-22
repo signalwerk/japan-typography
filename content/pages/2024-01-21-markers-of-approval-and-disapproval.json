@@ -27,9 +27,8 @@
               "children": [
                 {
                   "type": "image",
-                  "crop": "crop@left:290.8921658522052,top:690.5708333333334,width:1661.075047262549,height:1107.3542046144507;",
-                  "path": "https://media.signalwerk.ch/japanese-typography/21a5ec12f69de16538552c53c633cbf66f0e4c2fbce8b0c5ddaddce3fda824da/resize@width:250;/michal-ilenda-UzwsrV3bFdU-unsplash.jpg.jpg",
-                  "caption": "Sony Playstation 4 controller<small> · Foto:&nbsp;[Michal&nbsp;Ilenda – Unsplash](https://unsplash.com/photos/black-sony-ps-4-game-controller-UzwsrV3bFdU)</small>"
+                  "path": "https://media.signalwerk.ch/japanese-typography/0804f9a2b2be68955e255244a81cd58c4700a252d82d7652cce0252580dfc703/resize@width:250;/DualShock_4.jpg",
+                  "caption": "Sony DualShock 4 (DS4) controller for the PlayStation 4<small> · Foto:&nbsp;[Evan Amos](https://commons.wikimedia.org/wiki/File:DualShock_4.jpg)</small>"
                 }
               ]
             },
@@ -38,7 +37,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (🙆) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
+                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (<span style=\"filter: grayscale(50%);\">🙆</span>) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
                 }
               ]
             }
