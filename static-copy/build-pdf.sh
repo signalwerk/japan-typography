@@ -2,7 +2,7 @@
 
 
 # Array of pages to be converted to PDF
-pages=("" "/brackets" "/reference-mark" "/typographic-strategies-for-webpage-integrations")
+pages=("" "/brackets" "/reference-mark" "/typographic-strategies-for-webpage-integrations" "/setting-aesthetic-accents")
 
 
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -59,6 +59,7 @@ convert_to_pdf() {
         --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
         --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
         --form "url=https://paged.signalwerk.workers.dev${page}/?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
+        --form "printBackground=true" \
         --form "paperWidth=$paperWidth" \
         --form "paperHeight=$paperHeight" \
         --form "marginTop=0" \

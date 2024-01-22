@@ -1,8 +1,20 @@
 .nodebox--expample {
-  margin-top: 5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2.25rem;
 
   break-inside: avoid;
+
+  .node-text + & {
+    break-before: avoid;
+  }
+
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+
+  @include media(print) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .box__inner {

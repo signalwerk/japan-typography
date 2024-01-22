@@ -1,6 +1,6 @@
 @import url("https://fonts.signalwerk.ch/css/latest/family=Unicode+BMP+Fallback.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); // for aldus leave ❦
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"); // for aldus leave ❦
 
 @import "./Breakpoints/mixins.scss";
 @import "./typography.scss";
@@ -104,16 +104,6 @@ a {
 //   padding-bottom: 2rem;
 // }
 
-.nodebox--expample {
-  padding-left: 0.9em;
-  padding-right: 0.9em;
-
-  @include media(print) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .node-page {
   width: 100%;
   max-width: 75rem;
@@ -131,8 +121,8 @@ a {
 }
 
 .node-grid {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 :root {
@@ -150,8 +140,9 @@ a {
   grid-column: span var(--node-grid-column--count);
 }
 
+.translation,
 small {
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
 
 .regular {
@@ -220,14 +211,6 @@ body:after {
   figure {
     page-break-inside: avoid;
   }
-
-  .typo-example {
-    break-inside: avoid; /* Avoid breaking inside the element */
-  }
-
-  // .typo-example + .node-text {
-  //   break-before: avoid; /* Avoid breaking before the .node-text if it follows .typo-example */
-  // }
 
   h1 {
     string-set: titleH1 content(text);
