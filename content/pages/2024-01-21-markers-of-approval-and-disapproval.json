@@ -29,7 +29,7 @@
                   "type": "image",
                   "crop": "crop@left:290.8921658522052,top:690.5708333333334,width:1661.075047262549,height:1107.3542046144507;",
                   "path": "https://media.signalwerk.ch/japanese-typography/21a5ec12f69de16538552c53c633cbf66f0e4c2fbce8b0c5ddaddce3fda824da/resize@width:250;/michal-ilenda-UzwsrV3bFdU-unsplash.jpg.jpg",
-                  "caption": "Sony Playstation 4 controller · [Michal Ilenda – Unsplash](https://unsplash.com/photos/black-sony-ps-4-game-controller-UzwsrV3bFdU)"
+                  "caption": "Sony Playstation 4 controller<small> · Foto:&nbsp;[Michal&nbsp;Ilenda – Unsplash](https://unsplash.com/photos/black-sony-ps-4-game-controller-UzwsrV3bFdU)</small>"
                 }
               ]
             },
@@ -38,7 +38,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel."
+                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel.  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (🙆) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
                 }
               ]
             }
@@ -61,7 +61,7 @@
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
                   "crop": "rotate@angle:1.7;crop@left:236.9056188451194,top:576.0214773833518,width:3223.352207922989,height:2148.9645798919837;",
-                  "caption": "31. 10. 2023 06:09 · Infor-Screen [Train station Tokyo, Japan](https://www.google.com/maps/place/35.6806,139.7669527777778)"
+                  "caption": "Infor-Screen [Train station Tokyo, Japan](https://www.google.com/maps/place/35.6806,139.7669527777778)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 06:09</small>"
                 }
               ]
             },
@@ -69,10 +69,45 @@
               "cols": 4,
               "children": [
                 {
+                  "type": "text",
+                  "body": "xxx"
+                },
+                {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
                   "crop": "rotate@angle:1.7;crop@left:1493.2232945389344,top:913.1076762170951,width:1084.022680170092,height:722.7030101641193;",
                   "caption": "detail view"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/d8d53d4cb4cce33a348c835783c3d66832ed8a6376c223defecbb259438a8bc2/resize@width:250;/IMG_3254.jpg.jpg",
+                  "caption": "[Train station, Osaka, Japan](https://www.google.com/maps/place/34.70560555555556,135.49766666666665)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 11:36</small>",
+                  "crop": "crop@left:117.3626060455257,top:1646.6472620787072,width:3364.33802917658,height:2242.8840794619164;"
+                }
+              ]
+            },
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "xxx"
                 }
               ]
             }
