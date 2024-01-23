@@ -9,36 +9,66 @@
       "body": "## Typographic Strategies for Webpage Integrations\n\n### Observations of the Japanese Typography\nIn Japanese graphic design, particularly on posters, flyers, and other printed materials, there's a unique approach to directing viewers to websites[^chat-gpt-print-to-web]. Instead of providing a direct URL (Uniform Resource Locator), designers opt for a small illustration resembling a search field accompanied by specific keywords. This method is a practical solution for directing audiences to web content.\n\nThe illustration usually depicts a simplified search bar, sometimes with a magnifying glass icon, similar to those found in web browsers or search engines. Next to or within this graphic, designers place keywords that are unique or highly relevant to the content being referenced. This method relies on the assumption that users will enter these keywords into a search engine to find the specific website. \n\nThe visual simplicity and elegance of this method reflects the common behaviour exhibited by users when transitioning to digital media – accessing content is typically done by using a search engine. By providing relevant keywords, the sender increases the likelihood that the user will find the desired page.\n\n\n[^chat-gpt-print-to-web]: [ChatGPT · Finding a title for the chapter «Typographic Strategies for Webpage Integrations»](https://chat.openai.com/share/5fd69319-88d2-47ef-87bc-6a63df580ab9)\n"
     },
     {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/b0a1a03a314e073605eabf0c19a1bebaf5b17c879e355dc0b5b79801e3a613ce/resize@width:250;/IMG_3227.jpg.jpg",
+                  "crop": "rotate@angle:-0.5;crop@left:69.86834874708865,top:64.90538829407497,width:5344.928679152282,height:3563.392440274909;",
+                  "caption": "30. 10. 2023 20:54 · Poster · [Metro, Tokyo, Japan](https://www.google.com/maps/place/35.707858333333334,139.76973055555558)"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "crop": "rotate@angle:0.8;crop@left:99.016667607839,top:433.92074719789326,width:3679.927853632098,height:2453.361814528746;",
+                  "caption": "30. 10. 2023 20:54 · Poster detail · [Metro, Tokyo, Japan](https://www.google.com/maps/place/35.707858333333334,139.76973055555558)",
+                  "path": "https://media.signalwerk.ch/japanese-typography/39fd938160fd15d256173d34d96a55bcbdef79fd3a394453130396de3234e034/resize@width:250;/IMG_3228.jpg.jpg"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/711f1c6b66d8b027ac67e41e21cb99c863534d4f867bcfdbdb62b52f4ee35bf6/resize@width:250;/IMG_3877.jpg.jpg",
+                  "crop": "crop@left:0,top:1766.4888888888888,width:4284,height:2856;",
+                  "caption": "12. 11. 2023 13:19 · Poster detail · [Tokyo, Japan](https://www.google.com/maps/place/35.69566388888889,139.76768611111112)"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "<br />\n<br />\nMultiple examples of integrating visual search fields in order to direct users to a search engine and motivate them to enter suggested keywords."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Iconographical Webpage Integration "
+    },
+    {
       "type": "text",
       "body": "### Observation in the Western Typography\nIn contrast, Western graphic design typically uses direct URLs or QR codes to guide viewers to websites. URLs provide a straightforward, exact path to a specific webpage. \nQR codes, while innovative for technical use cases, face accessibility challenges for readers. They depend on specific technology, like smartphones with cameras and Apps understanding QR-codes. This creates barriers for groups like older adults or those without smartphones. Unlike search terms that convey information and can be remembered, QR codes are cryptic and give no hints about their content. Their use also demands immediate, direct interaction with the printed material, which can be inconvenient in public spaces. Unlike URLs or search terms that can be noted or remembered for later use, QR codes must be used at the moment, limiting their flexibility and longevity. While functional, QR codes are often seen as intrusive elements in a design layout, challenging designers to incorporate them without disrupting the visual harmony of the piece."
     },
     {
       "type": "text",
       "body": "### Takeaways\nThe Japanese method of indicating web content through search terms within a graphic representation of a search field offers intriguing possibilities for Western typography and graphic design. It prompts a reevaluation of how we guide viewers to online content and the potential for more integrated, aesthetically pleasing solutions. This approach also underscores the importance of understanding user behaviours and preferences in the digital age.\n\nFor Western designers, adopting a similar strategy could mean creating a more seamless bridge between print and digital media. It encourages a thoughtful consideration of keywords, their typographic presentation, and how they can be visually harmonized within a design. This method also invites designers to explore more iconographic elements in typography, blending text and imagery in innovative ways."
-    },
-    {
-      "type": "image",
-      "path": "https://media.signalwerk.ch/japanese-typography/b0a1a03a314e073605eabf0c19a1bebaf5b17c879e355dc0b5b79801e3a613ce/resize@width:250;/IMG_3227.jpg.jpg",
-      "crop": "rotate@angle:-0.5;crop@left:69.86834874708865,top:64.90538829407497,width:5344.928679152282,height:3563.392440274909;",
-      "caption": "30. 10. 2023 20:54 · Poster · [Metro, Tokyo, Japan](https://www.google.com/maps/place/35.707858333333334,139.76973055555558)"
-    },
-    {
-      "type": "image",
-      "crop": "rotate@angle:0.8;crop@left:99.016667607839,top:433.92074719789326,width:3679.927853632098,height:2453.361814528746;",
-      "caption": "30. 10. 2023 20:54 · Poster detail · [Metro, Tokyo, Japan](https://www.google.com/maps/place/35.707858333333334,139.76973055555558)",
-      "path": "https://media.signalwerk.ch/japanese-typography/39fd938160fd15d256173d34d96a55bcbdef79fd3a394453130396de3234e034/resize@width:250;/IMG_3228.jpg.jpg"
-    },
-    {
-      "type": "image",
-      "path": "https://media.signalwerk.ch/japanese-typography/0a66949aef4d5742afd6218386b3ddf0eb5cb6a98a9502d62fb63b12e39fd3fa/resize@width:250;/IMG_3310.jpg.jpg",
-      "crop": "crop@left:0,top:1296.8666666666668,width:3024,height:2016;",
-      "caption": "01. 11. 2023 10:33 · Information Flyer · [Osaka, Japan](https://www.google.com/maps/place/34.63891666666667,135.41526666666667)"
-    },
-    {
-      "type": "image",
-      "path": "https://media.signalwerk.ch/japanese-typography/711f1c6b66d8b027ac67e41e21cb99c863534d4f867bcfdbdb62b52f4ee35bf6/resize@width:250;/IMG_3877.jpg.jpg",
-      "crop": "crop@left:0,top:1766.4888888888888,width:4284,height:2856;",
-      "caption": "12. 11. 2023 13:19 · Poster detail · [Tokyo, Japan](https://www.google.com/maps/place/35.69566388888889,139.76768611111112)"
     }
   ]
 }

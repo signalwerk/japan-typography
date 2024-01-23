@@ -46,7 +46,7 @@
           ]
         }
       ],
-      "title": "Brackets in Latin Alphabet"
+      "title": "Example · Brackets in Latin Alphabet"
     },
     {
       "type": "text",
@@ -90,7 +90,7 @@
           ]
         }
       ],
-      "title": "Special cases of Brackets in Latin Alphabet"
+      "title": "Example · Special cases of brackets in Latin Alphabet"
     },
     {
       "type": "text",
@@ -129,7 +129,14 @@
               ]
             }
           ]
-        },
+        }
+      ],
+      "title": "Observation · Handwritten corner brackets"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
         {
           "type": "grid",
           "children": [
@@ -161,7 +168,7 @@
           ]
         }
       ],
-      "title": "Observations in Japan"
+      "title": "Observation · Styling with lenticular brackets"
     },
     {
       "type": "text",
@@ -177,7 +184,7 @@
           "class": "text--typo-example"
         }
       ],
-      "title": "Corner brackets used in Latin Alphabet"
+      "title": "Example · Corner brackets used in Latin Alphabet"
     }
   ]
 }

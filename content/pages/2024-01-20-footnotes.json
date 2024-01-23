@@ -39,7 +39,7 @@
           ]
         }
       ],
-      "title": "Observation in Japan"
+      "title": "Observation · Fine print with reference mark"
     },
     {
       "type": "box",
@@ -84,12 +84,11 @@
           ]
         }
       ],
-      "title": "Observation in Japan"
+      "title": "Observation · Reference marks used for further explanations"
     },
-
     {
       "type": "box",
-      "title": "Observation of the usage of the reference mark in english texts",
+      "title": "Observation · Reference mark in english texts",
       "preset": "expample",
       "children": [
         {
@@ -192,7 +191,7 @@
           ]
         }
       ],
-      "title": "References in Latin Alphabet"
+      "title": "Example · References in western typography"
     },
     {
       "type": "text",
@@ -227,7 +226,7 @@
           ]
         }
       ],
-      "title": "Brackets in Latin Alphabet"
+      "title": "Example · Reference mark as fleuron"
     }
   ]
 }

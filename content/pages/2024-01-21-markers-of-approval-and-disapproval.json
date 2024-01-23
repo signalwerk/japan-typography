@@ -44,7 +44,7 @@
           ]
         }
       ],
-      "title": "Prominente use case of Japnese symbols in the western culture"
+      "title": "Example · Japnese symbols entering western culture"
     },
     {
       "type": "box",
@@ -69,7 +69,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "xxx"
+                  "body": "Example of the usage of maru (〇) and batsu (✕) in the daily life without further explanation."
                 },
                 {
                   "type": "image",
@@ -81,7 +81,8 @@
             }
           ]
         }
-      ]
+      ],
+      "title": "Observation · self-explanatory symbols according to culture"
     },
     {
       "type": "box",
@@ -90,6 +91,15 @@
         {
           "type": "grid",
           "children": [
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "In the given example, the culturally independent iconography of cash and cash-less payment encounters a cultural barrier when combined with the use of culturally dependent symbols."
+                }
+              ]
+            },
             {
               "cols": 8,
               "children": [
@@ -100,19 +110,11 @@
                   "crop": "crop@left:117.3626060455257,top:1646.6472620787072,width:3364.33802917658,height:2242.8840794619164;"
                 }
               ]
-            },
-            {
-              "cols": 4,
-              "children": [
-                {
-                  "type": "text",
-                  "body": "xxx"
-                }
-              ]
             }
           ]
         }
-      ]
+      ],
+      "title": "Observation · Symbols and iconography in combination"
     }
   ],
   "path": "/markers-of-approval-disapproval/"
