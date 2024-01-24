@@ -52,9 +52,17 @@
               "cols": 6,
               "children": [
                 {
-                  "type": "text",
-                  "body": "On this small poster found on a street bulletin board, the reference mark is used to further specify some general information or to lead people where they can find more information.\n\n"
-                },
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
+                  "crop": "crop@left:1618.3999999999999,top:1223.46875,width:1068.3555555555556,height:641.2698412698413;",
+                  "alt": "",
+                  "caption": "Detail view"
+                }
+              ]
+            },
+            {
+              "cols": 5,
+              "children": [
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
@@ -63,17 +71,24 @@
                   "caption": "[Street bulletin board, Tokyo, Japan](https://www.google.com/maps/place/35.724944444444446,139.7859638888889)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:54</small>"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "children": [
             {
               "cols": 6,
               "children": [
                 {
-                  "type": "image",
-                  "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
-                  "crop": "crop@left:1618.3999999999999,top:1223.46875,width:1068.3555555555556,height:641.2698412698413;",
-                  "alt": "",
-                  "caption": "Detail view"
-                },
+                  "type": "text",
+                  "body": "On this small poster found on a street bulletin board, the reference mark is used to further specify some general information or to lead people where they can find more information.\n\n"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
                 {
                   "type": "text",
                   "body": "---\n\nTranslation[^deepL-corner-ref-mark] (partial)\n\n`JP`:\n開館時間  9時~16時30分（入館は16時まで）  \n休館日 毎週月曜日（祝休日の場合は翌平日）  \n※展示替えのため10月16日（月）～20日（金）、  \n12月11日（月）～15日（金）は休館いたします  \n※ご来館の前にホームページ等で最新情報をご確認ください  \n\n\n`EN`:\nHours: 9:00 – 16:30 (admission by 16:00)  \nClosed: Mondays (or the following weekday if the Monday is a national holiday)  \n\\* The museum will be closed for exhibition changes from October 16 (Mon.) to 20 (Fri.) and from December 11 (Mon.) to 15 (Fri.),  \nClosed on Monday, October 16 through Friday, December 11 through Friday, December 15 for exhibition changes.  \n\\* Please check the website for the latest information before visiting the museum.\n\n[^deepL-corner-ref-mark]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E9%96%8B%E9%A4%A8%E6%99%82%E9%96%93%20%209%E6%99%82~16%E6%99%8230%E5%88%86%EF%BC%88%E5%85%A5%E9%A4%A8%E3%81%AF16%E6%99%82%E3%81%BE%E3%81%A7%EF%BC%89%0A%E4%BC%91%E9%A4%A8%E6%97%A5%20%E6%AF%8E%E9%80%B1%E6%9C%88%E6%9B%9C%E6%97%A5%EF%BC%88%E7%A5%9D%E4%BC%91%E6%97%A5%E3%81%AE%E5%A0%B4%E5%90%88%E3%81%AF%E7%BF%8C%E5%B9%B3%E6%97%A5%EF%BC%89%0A%E2%80%BB%E5%B1%95%E7%A4%BA%E6%9B%BF%E3%81%88%E3%81%AE%E3%81%9F%E3%82%8110%E6%9C%8816%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89%EF%BD%9E20%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89%E3%80%81%0A12%E6%9C%8811%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89%EF%BD%9E15%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89%E3%81%AF%E4%BC%91%E9%A4%A8%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%99%0A%E2%80%BB%E3%81%94%E6%9D%A5%E9%A4%A8%E3%81%AE%E5%89%8D%E3%81%AB%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E7%AD%89%E3%81%A7%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B1%E3%82%92%E3%81%94%E7%A2%BA%E8%AA%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84)",
@@ -95,16 +110,7 @@
           "type": "grid",
           "children": [
             {
-              "cols": 4,
-              "children": [
-                {
-                  "type": "text",
-                  "body": "On the website of [Japan Rail Pass](https://japanrailpass.net/) the reference mark is extensively used. In this particular place, it is used as an indicator for numbered footnotes. Where in Latin typography the number stands by itself, in this case (also Latin typography but obviously set in another cultural understanding/background) the reference numbers are accompanied by the reference mark."
-                }
-              ]
-            },
-            {
-              "cols": 8,
+              "cols": 7,
               "children": [
                 {
                   "type": "image",
@@ -120,6 +126,15 @@
                   "caption": "[Website Japan Rail Pass · Train accommodations](https://japanrailpass.net/en/about_jrp/vehicle/) · [Archive copy](https://web.archive.org/web/20240120160729/https://japanrailpass.net/en/about_jrp/vehicle/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
                 }
               ]
+            },
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "On the website of [Japan Rail Pass](https://japanrailpass.net/) the reference mark is extensively used. In this particular place, it is used as an indicator for numbered footnotes. Where in Latin typography the number stands by itself, in this case (also Latin typography but obviously set in another cultural understanding/background) the reference numbers are accompanied by the reference mark."
+                }
+              ]
             }
           ]
         },
@@ -127,21 +142,21 @@
           "type": "grid",
           "children": [
             {
-              "cols": 4,
-              "children": [
-                {
-                  "type": "text",
-                  "body": "On another page, the same reference mark is used to indicate a footnote. In this case, the reference mark is used in a similar way as in Latin typography for a footnote. The big difference is that the reference was not set in the table, but only added in the footer."
-                }
-              ]
-            },
-            {
-              "cols": 8,
+              "cols": 7,
               "children": [
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/99c35c5c39056a11435f050e2a354cf0dbaee980494b1df3c092b9d6f628a93f/resize@width:250;/Japan Rail Pass Table price.png.jpg",
                   "caption": "[Website Japan Rail Pass · Types and prices](https://japanrailpass.net/en/purchase/price/) · [Archive copy](https://web.archive.org/web/20240120160546/https://japanrailpass.net/en/purchase/price/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
+                }
+              ]
+            },
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "On another page, the same reference mark is used to indicate a footnote. In this case, the reference mark is used in a similar way as in Latin typography for a footnote. The big difference is that the reference was not set in the table, but only added in the footer."
                 }
               ]
             }
@@ -165,7 +180,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "Gemäss Jan Tschichold (`†` 1974) ",
+                  "body": "Gemäss Jan&nbsp;Tschichold (`†` 1974) ",
                   "class": "text--typo-example"
                 },
                 {
@@ -179,7 +194,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "According to Jan Tschichold`†`.",
+                  "body": "According to Jan&nbsp;Tschichold`†`.",
                   "class": "text--typo-example"
                 },
                 {
@@ -226,7 +241,8 @@
           ]
         }
       ],
-      "title": "Example · Reference mark as fleuron"
+      "title": "Example · Reference mark as fleuron",
+      "class": "nodebox--expample--break-before-avoid"
     }
   ]
 }

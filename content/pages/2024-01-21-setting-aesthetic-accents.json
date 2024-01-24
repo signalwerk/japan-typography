@@ -14,7 +14,7 @@
           "type": "grid",
           "children": [
             {
-              "cols": 6,
+              "cols": 4,
               "children": [
                 {
                   "type": "image",
@@ -25,7 +25,7 @@
               ]
             },
             {
-              "cols": 6,
+              "cols": 8,
               "children": [
                 {
                   "type": "text",
