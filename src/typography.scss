@@ -123,6 +123,7 @@ h2 {
 
   @include media(print) {
     page-break-before: right;
+    // page-break-before: always;
   }
 }
 

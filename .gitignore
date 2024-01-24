@@ -7,3 +7,5 @@
 /.env
 /static-copy/.env
 /static-copy/**/*.pdf
+/static-copy/**/*.txt
+/content/pages/print.json

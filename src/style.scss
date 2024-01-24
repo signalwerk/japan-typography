@@ -291,3 +291,9 @@ body:after {
 .break-before {
   break-before: always;
 }
+
+.page-break-before-auto {
+  h2 {
+    page-break-before: auto;
+  }
+}
