@@ -97,7 +97,7 @@ merge_pdfs() {
         -o "$current_dir/pdf/$output_file"
 
 
-    pdftotext "$output_file" "$output_file.txt"
+    pdftotext "$current_dir/pdf/$output_file" "$current_dir/pdf/$output_file.txt"
 
 
     # Clean up temporary files

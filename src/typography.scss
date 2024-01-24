@@ -34,6 +34,12 @@ $fontWeight--default--mono--bold: 700;
     --typography--size-divider: 0.88;
   }
 
+  @include media(print) {
+    --typography--size-1: 4.5rem;
+    --typography--size-scaler: 1.4;
+    --typography--size-divider: 0.88;
+  }
+
   //   @include media(print) {
   //     --typography--size-1: 5rem;
   //     --typography--size-scaler: 1.4;
@@ -89,8 +95,8 @@ h2,
 h3,
 h4 {
   margin-top: 0.7em;
-  margin-bottom: 0.3em;
-  line-height: 1.3;
+  margin-bottom: 0.4em;
+  line-height: 1.15;
 
   @include media(m) {
     hyphens: none;
@@ -106,16 +112,19 @@ h1 {
   font-style: italic;
   font-family: $fontFamily--default--mono;
   font-weight: $fontWeight--default--mono--regular;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 h2 {
   font-size: var(--typography--size-2);
+  margin-top: 0;
+  // color: var(--color-primary);
+  margin-bottom: 3em;
 }
 
 h3 {
   font-size: var(--typography--size-3);
-  margin-top: 4em;
+  margin-top: 3em;
 }
 h4 {
   font-size: var(--typography--size-4);
