@@ -6,10 +6,10 @@ pages=("" "/reference-mark" "/brackets" "/markers-of-approval-disapproval" "/set
 
 
 
-current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+basePath="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Load the .env file
-source "$current_dir/.env"
+source "$basePath/.env"
 
 # Remove the output file if it already exists
 rm -rf out.pdf
@@ -55,7 +55,7 @@ convert_to_pdf() {
     local page=$1
     local file=${1:-"/index"} 
 
-    local pdf_path="$current_dir/pdf${file}.pdf"
+    local pdf_path="$basePath/pdf${file}.pdf"
     curl \
         --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
         --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
@@ -74,14 +74,14 @@ convert_to_pdf() {
 
 merge_pdfs() {
     local output_file=${1:-"merged.pdf"}  # Default output filename
-    local temp_dir="$current_dir/pdf/.temp"
+    local temp_dir="$basePath/pdf/.temp"
     mkdir -p "$temp_dir"
 
     # Create temporary numbered copies and prepare the --form string for curl
     local form_files=()
     local count=1
     for page in "${pages[@]}"; do
-        local original_pdf="$current_dir/pdf/${page:-"index"}.pdf"
+        local original_pdf="$basePath/pdf/${page:-"index"}.pdf"
         local temp_pdf="$temp_dir/$(printf "%05d" $count).pdf"
         cp "$original_pdf" "$temp_pdf"
         form_files+=(--form "files=@$temp_pdf")
@@ -89,15 +89,17 @@ merge_pdfs() {
     done
 
     # Merge PDFs using curl
+    output_path="$basePath/pdf/${output_file%.pdf}"
     curl \
         --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
         --request POST \
         --url 'https://html2pdf.srv.signalwerk.ch/forms/pdfengines/merge' \
         "${form_files[@]}" \
-        -o "$current_dir/pdf/$output_file"
+        -o "${output_path}.pdf"
 
 
-    pdftotext "$current_dir/pdf/$output_file" "$current_dir/pdf/$output_file.txt"
+    pdftotext "${output_path}.pdf" "${output_path}.txt"
+    pdfcpu booklet -- "p:A4, border:on" "${output_path}-mont.pdf" 2 "${output_path}.pdf"
 
 
     # Clean up temporary files
@@ -106,9 +108,9 @@ merge_pdfs() {
 
 
 # Convert each page to PDF
-for page in "${pages[@]}"; do
-    convert_to_pdf "$page"
-done
+# for page in "${pages[@]}"; do
+#     convert_to_pdf "$page"
+# done
 
 # Merge the generated PDFs
 merge_pdfs "_merged.pdf"

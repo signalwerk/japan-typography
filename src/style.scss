@@ -121,7 +121,6 @@ a {
   width: 100%;
   max-width: 75rem;
   margin: 0 auto;
-  padding-bottom: 10rem;
 }
 
 .node-page > .node-text,
@@ -288,3 +287,14 @@ body:after {
     }
   }
 }
+
+
+
+.break-inside-avoid {
+  // break-inside: avoid;
+}
+
+.break-before-avoid {
+  // break-before: avoid;
+}
+
