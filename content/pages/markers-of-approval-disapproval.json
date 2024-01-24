@@ -20,7 +20,7 @@
           "type": "grid",
           "children": [
             {
-              "cols": 4,
+              "cols": 5,
               "children": [
                 {
                   "type": "image",
@@ -30,7 +30,11 @@
               ]
             },
             {
-              "cols": 8,
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
               "children": [
                 {
                   "type": "text",
@@ -115,7 +119,7 @@
     },
     {
       "type": "text",
-      "body": "### Takeaway\n\nThe exploration of Japanese and Western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides, and the need for sensitivity and awareness in their application across diverse cultural landscapes."
+      "body": "### Takeaway Markers\n\nThe exploration of Japanese and Western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides, and the need for sensitivity and awareness in their application across diverse cultural landscapes."
     }
   ],
   "path": "/markers-of-approval-disapproval/"

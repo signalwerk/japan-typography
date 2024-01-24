@@ -210,7 +210,8 @@
     },
     {
       "type": "text",
-      "body": "### Takeaways\nThe usage of these symbols in both Japanese and Latin scripts underscores a universal need in typography: to provide additional information without cluttering or disrupting the primary text."
+      "body": "### Takeaways reference mark\nThe usage of these symbols in both Japanese and Latin scripts underscores a universal need in typography: to provide additional information without cluttering or disrupting the primary text.",
+      "class": "break-before"
     },
     {
       "type": "box",
@@ -241,8 +242,7 @@
           ]
         }
       ],
-      "title": "Example · Reference mark as fleuron",
-      "class": "nodebox--expample--break-before-avoid"
+      "title": "Example · Reference mark as fleuron"
     }
   ]
 }

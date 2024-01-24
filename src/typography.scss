@@ -120,6 +120,10 @@ h2 {
   margin-top: 0;
   // color: var(--color-primary);
   margin-bottom: 4.5em;
+
+  @include media(print) {
+    page-break-before: right;
+  }
 }
 
 h3 {

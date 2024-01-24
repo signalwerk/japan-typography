@@ -48,10 +48,7 @@
       ],
       "title": "Example · Brackets in Latin Alphabet"
     },
-    {
-      "type": "text",
-      "body": "In some professional fields, brackets are also used for various purposes beyond the traditional function of brackets."
-    },
+
     {
       "type": "box",
       "preset": "expample",
@@ -155,7 +152,11 @@
               ]
             },
             {
-              "cols": 7,
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
               "children": [
                 {
                   "type": "image",
@@ -172,8 +173,7 @@
     },
     {
       "type": "text",
-      "body": "### Takeaways\nWith the advent of Unicode and the ease of accessing a vast array of characters from different languages, why shouldn't we embrace the diversity of typographic elements such as Japanese brackets in Latin texts? The unique shapes and aesthetic offers fresh perspectives. Incorporating these elements into Latin typography could enhance the visual appeal of our texts. Especially in formats where we don't have a wide variety of text-formatting at hand. For Example in social media where we can't format the text and therefore are thankfull for a wider range of expression. \n\n",
-      "class": "break-inside-avoid"
+      "body": "### Takeaways brackets\nWith the advent of Unicode and the ease of accessing a vast array of characters from different languages, why shouldn't we embrace the diversity of typographic elements such as Japanese brackets in Latin texts? The unique shapes and aesthetic offers fresh perspectives. Incorporating these elements into Latin typography could enhance the visual appeal of our texts. Especially in formats where we don't have a wide variety of text-formatting at hand. For Example in social media where we can't format the text and therefore are thankfull for a wider range of expression. \n\n"
     },
     {
       "type": "box",
@@ -195,8 +195,7 @@
           ]
         }
       ],
-      "title": "Example · Corner brackets used in Latin Alphabet",
-      "class": "break-before-avoid"
+      "title": "Example · Corner brackets used in Latin Alphabet"
     }
   ]
 }

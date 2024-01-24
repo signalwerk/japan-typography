@@ -53,13 +53,12 @@ echo "marginBottom: $marginBottom"
 
 convert_to_pdf() {
     local page=$1
-    local file=${1:-"/index"} 
+    local pdf_path=$2
 
-    local pdf_path="$basePath/pdf${file}.pdf"
     curl \
         --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
         --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
-        --form "url=https://paged.signalwerk.workers.dev${page}/?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
+        --form "url=https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
         --form "printBackground=true" \
         --form "paperWidth=$paperWidth" \
         --form "paperHeight=$paperHeight" \
@@ -69,7 +68,6 @@ convert_to_pdf() {
         --form "marginRight=0" \
         --form 'waitDelay="1s"' \
         -o "$pdf_path"
-
 }
 
 merge_pdfs() {
@@ -112,5 +110,13 @@ merge_pdfs() {
 #     convert_to_pdf "$page"
 # done
 
+
+
+
+convert_to_pdf "/print/" "$basePath/pdf/print.pdf"
+pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
+pdfcpu booklet -- "p:A4, border:on" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
+
+
 # Merge the generated PDFs
-merge_pdfs "_merged.pdf"
+# merge_pdfs "_merged.pdf"

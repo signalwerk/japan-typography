@@ -288,13 +288,6 @@ body:after {
   }
 }
 
-
-
-.break-inside-avoid {
-  // break-inside: avoid;
+.break-before {
+  break-before: always;
 }
-
-.break-before-avoid {
-  // break-before: avoid;
-}
-

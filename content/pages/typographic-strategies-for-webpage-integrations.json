@@ -39,6 +39,37 @@
             },
             {
               "cols": 6,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "<br />\n<br />\nTwo examples of integrating visual search fields in order to direct users to a search engine and motivate them to enter suggested keywords."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Iconographical Webpage Integration "
+    },
+
+    {
+      "type": "text",
+      "body": "### Observation in the Western Typography\nIn contrast, Western graphic design typically uses direct URLs or QR codes to guide viewers to websites. URLs provide a straightforward, exact path to a specific webpage. \nQR codes, while innovative for technical use cases, face accessibility challenges for readers. They depend on specific technology, like smartphones with cameras and Apps understanding QR-codes. This creates barriers for groups like older adults or those without smartphones. Unlike search terms that convey information and can be remembered, QR codes are cryptic and give no hints about their content. Their use also demands immediate, direct interaction with the printed material, which can be inconvenient in public spaces. Unlike URLs or search terms that can be noted or remembered for later use, QR codes must be used at the moment, limiting their flexibility and longevity. While functional, QR codes are often seen as intrusive elements in a design layout, challenging designers to incorporate them without disrupting the visual harmony of the piece."
+    },
+
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
               "children": [
                 {
                   "type": "image",
@@ -53,22 +84,18 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "<br />\n<br />\nMultiple examples of integrating visual search fields in order to direct users to a search engine and motivate them to enter suggested keywords."
+                  "body": "Different forms how to integrate a URL into a design can be chosen. In this example, the URL is integrated into the design as a typographic element and QR code."
                 }
               ]
             }
           ]
         }
       ],
-      "title": "Observation · Iconographical Webpage Integration "
+      "title": "Observation · Combination of different strategies"
     },
     {
       "type": "text",
-      "body": "### Observation in the Western Typography\nIn contrast, Western graphic design typically uses direct URLs or QR codes to guide viewers to websites. URLs provide a straightforward, exact path to a specific webpage. \nQR codes, while innovative for technical use cases, face accessibility challenges for readers. They depend on specific technology, like smartphones with cameras and Apps understanding QR-codes. This creates barriers for groups like older adults or those without smartphones. Unlike search terms that convey information and can be remembered, QR codes are cryptic and give no hints about their content. Their use also demands immediate, direct interaction with the printed material, which can be inconvenient in public spaces. Unlike URLs or search terms that can be noted or remembered for later use, QR codes must be used at the moment, limiting their flexibility and longevity. While functional, QR codes are often seen as intrusive elements in a design layout, challenging designers to incorporate them without disrupting the visual harmony of the piece."
-    },
-    {
-      "type": "text",
-      "body": "### Takeaways\nThe Japanese method of indicating web content through search terms within a graphic representation of a search field offers intriguing possibilities for Western typography and graphic design. It prompts a reevaluation of how we guide viewers to online content and the potential for more integrated, aesthetically pleasing solutions. This approach also underscores the importance of understanding user behaviours and preferences in the digital age.\n\nFor Western designers, adopting a similar strategy could mean creating a more seamless bridge between print and digital media. It encourages a thoughtful consideration of keywords, their typographic presentation, and how they can be visually harmonized within a design. This method also invites designers to explore more iconographic elements in typography, blending text and imagery in innovative ways."
+      "body": "### Takeaways for webpage integrations\nThe Japanese method of indicating web content through search terms within a graphic representation of a search field offers intriguing possibilities for Western typography and graphic design. It prompts a reevaluation of how we guide viewers to online content and the potential for more integrated, aesthetically pleasing solutions. This approach also underscores the importance of understanding user behaviours and preferences in the digital age.\n\nFor Western designers, adopting a similar strategy could mean creating a more seamless bridge between print and digital media. It encourages a thoughtful consideration of keywords, their typographic presentation, and how they can be visually harmonized within a design. This method also invites designers to explore more iconographic elements in typography, blending text and imagery in innovative ways."
     }
   ]
 }
