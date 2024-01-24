@@ -2,7 +2,8 @@
 
 
 # Array of pages to be converted to PDF
-pages=("" "/brackets" "/reference-mark" "/markers-of-approval-disapproval" "/typographic-strategies-for-webpage-integrations" "/setting-aesthetic-accents")
+pages=("" "/reference-mark" "/brackets" "/markers-of-approval-disapproval" "/setting-aesthetic-accents" "/typographic-strategies-for-webpage-integrations" "/finals-stroke")
+
 
 
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -69,7 +70,6 @@ convert_to_pdf() {
         --form 'waitDelay="1s"' \
         -o "$pdf_path"
 
-
 }
 
 merge_pdfs() {
@@ -95,6 +95,10 @@ merge_pdfs() {
         --url 'https://html2pdf.srv.signalwerk.ch/forms/pdfengines/merge' \
         "${form_files[@]}" \
         -o "$current_dir/pdf/$output_file"
+
+
+    pdftotext "$output_file" "$output_file.txt"
+
 
     # Clean up temporary files
     rm -rf "$temp_dir"

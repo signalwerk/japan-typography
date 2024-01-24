@@ -4,7 +4,7 @@
   "children": [
     {
       "type": "text",
-      "body": "## Setting aesthetic accents\n[^gpt-setting-aesthetic-accents]\n\n### Directional Dynamics\nJapanese typography, unique in its versatility, allows for both horizontal and vertical orientations in text layout. This dual-directional approach not only accommodates linguistic nuances but also offers a dynamic typographic landscape. Historically, vertical writing (tategaki) was the norm, running from top to bottom and right to left. However, influenced by Western styles, horizontal writing (yokogaki) – running from left to right and top to bottom – has become wide spread in modern Japan, particularly in digital media.[^wiki-japanese-writing-system]  \nThe choice of direction can also be used to separate or accentuate specific elements within a text. This interplay between vertical and horizontal orientations adds a layer of visual interest and meaning, making the text not just a carrier of information but also an element of design.\n\n\n\n[^wiki-japanese-writing-system]: [Wikipedia · Japanese writing system](https://en.wikipedia.org/wiki/Japanese_writing_system)\n[^gpt-setting-aesthetic-accents]: [ChatGPT · finding a title for «Setting aesthetic accents»](https://chat.openai.com/share/5f01e089-efbc-439e-bcfe-f1bfb978b2bc)"
+      "body": "## Setting aesthetic accents\n\n### Directional Dynamics\nJapanese typography, unique in its versatility, allows for both horizontal and vertical orientations in text layout. This dual-directional approach not only accommodates linguistic nuances but also offers a dynamic typographic landscape. Historically, vertical writing (tategaki) was the norm, running from top to bottom and right to left. However, influenced by Western styles, horizontal writing (yokogaki) – running from left to right and top to bottom – has become wide spread in modern Japan, particularly in digital media.[^wiki-japanese-writing-system]  \nThe choice of direction can also be used to separate or accentuate[^gpt-setting-aesthetic-accents] specific elements within a text. This interplay between vertical and horizontal orientations adds a layer of visual interest and meaning, making the text not just a carrier of information but also an element of design.\n\n\n\n[^wiki-japanese-writing-system]: [Wikipedia · Japanese writing system](https://en.wikipedia.org/wiki/Japanese_writing_system)\n[^gpt-setting-aesthetic-accents]: [ChatGPT · finding a title for «Setting aesthetic accents»](https://chat.openai.com/share/5f01e089-efbc-439e-bcfe-f1bfb978b2bc)"
     },
     {
       "type": "box",
@@ -121,6 +121,10 @@
         }
       ],
       "title": "Observation · Lines to emphasize importance"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaways\n\n\nThe integration of both horizontal and vertical orientations in Japanese typography elevates its aesthetic and functional aspects, offering valuable insights for Western typography. This approach presents a unique text arrangement method, pushing the boundaries of traditional Western layouts and fostering inventive design practices. Despite the challenges posed by digital platforms, such as limited web support for vertically oriented text, embracing these approaches in Western typography can inspire imaginative designs that skilfully blend experimentation and modernity, leading to a richer typographic landscape."
     }
   ],
   "title": "Setting aesthetic accents",
