@@ -113,9 +113,9 @@ merge_pdfs() {
 
 
 
-convert_to_pdf "/print/" "$basePath/pdf/print.pdf"
-pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
-pdfcpu booklet -- "p:A4, border:on" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
+# convert_to_pdf "/print/" "$basePath/pdf/print.pdf"
+# pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
+pdfcpu booklet -- "formsize:A3" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
 
 
 # Merge the generated PDFs
