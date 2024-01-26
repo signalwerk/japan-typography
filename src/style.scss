@@ -128,21 +128,11 @@ a {
 }
 
 .node-page > .node-text,
-.node-page > .node-page__footnotes,
-.node-page > .node-grid {
+.node-page > .node-page__footnotes {
   &:not(.full-width) {
     width: var(--column-width);
     margin-left: var(--column-left);
   }
-}
-
-.node-page > .node-grid {
-  margin-top: 0;
-}
-
-.node-grid {
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 :root {
@@ -151,9 +141,14 @@ a {
 }
 
 .node-grid {
-  display: var(--grid--display, grid);
+  @include media(s) {
+    display: var(--grid--display, grid);
+  }
   grid-template-columns: repeat(var(--node-gird--count), 1fr);
   grid-column-gap: var(--grid--grid-column-gap, 1.5rem);
+
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .node-grid-column {
@@ -165,6 +160,24 @@ a {
   & > .node-text > .text > p,
   & > .node-text > .text > h4 {
     margin-top: -0.35em;
+  }
+}
+
+// the big pictures between the text
+.image--emotional {
+  @include media(screen) {
+    display: block;
+  }
+  margin-top: 7.5rem;
+  margin-bottom: 5rem;
+  width: var(--column-width);
+  margin-left: var(--column-left);
+
+  @include media(print) {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: 0;
   }
 }
 

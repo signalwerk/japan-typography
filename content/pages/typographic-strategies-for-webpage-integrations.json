@@ -101,7 +101,7 @@
 
     {
       "type": "grid",
-      "class": "full-width break-before",
+      "class": "image--emotional full-width break-before",
       "children": [
         {
           "cols": 10,

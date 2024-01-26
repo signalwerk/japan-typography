@@ -55,10 +55,13 @@ convert_to_pdf() {
     local page=$1
     local pdf_path=$2
 
+    local finalPath="https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=pagedjs--pdf&bust=$(date +%s)"
+    echo "$finalPath"
+
     curl \
         --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
         --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
-        --form "url=https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=pagedjs--pdf&bust=$(date +%s)" \
+        --form "url=${finalPath}" \
         --form "printBackground=true" \
         --form "paperWidth=$paperWidth" \
         --form "paperHeight=$paperHeight" \
