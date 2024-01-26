@@ -97,6 +97,24 @@
     {
       "type": "text",
       "body": "### Takeaways for webpage integrations\nThe Japanese method of indicating web content through search terms within a graphic representation of a search field offers intriguing possibilities for Western typography and graphic design. It prompts a reevaluation of how we guide viewers to online content and the potential for more integrated, aesthetically pleasing solutions. This approach also underscores the importance of understanding user behaviours and preferences in the digital age.\n\nFor Western designers, adopting a similar strategy could mean creating a more seamless bridge between print and digital media. It encourages a thoughtful consideration of keywords, their typographic presentation, and how they can be visually harmonized within a design. This method also invites designers to explore more iconographic elements in typography, blending text and imagery in innovative ways."
+    },
+
+    {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/13fae4bc8dcdd5ee7e15ff8426bfdfc067b984baeddecc72d8c14c8a84916129/resize@width:250;/IMG_3639.jpg.jpg",
+              "crop": "crop@left:0,top:0,width:2688,height:4032;",
+              "caption": "Museum Scene · [21st Century Museum of Contemporary Art, Kanazawa, Japan](https://www.google.com/maps/place/36.56063888888889,136.65705833333334)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 07. 11. 2023 12:18</small>"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

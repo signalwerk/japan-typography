@@ -12,11 +12,26 @@
       "type": "text",
       "body": "### Impressum\nAuthor · Stefan Huber, Zurich, Switzerland  \nYear of publication · 2024  \nLicence · [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  \nFonts · Work Sans is a versatile typeface created by Wei Huang that draws inspiration from early Grotesques. It has continuously evolved to meet the demands of modern typography. To provide comprehensive symbol, emoji, and Japanese character coverage, the font Noto was utilized as a fallback option.\n\n\nPublished under [typography.japan.signalwerk.ch](https://typography.japan.signalwerk.ch/)"
     },
+ 
+
     {
-      "type": "text",
-      "class": "break-before",
-      "body": "### &nbsp;"
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 12,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/d27276b84ea2595dd0feda84c1b882365f4079adddce5cd2b04042c5fa651836/resize@width:250;/IMG_3081.jpg.jpg",
+              "crop": "crop@left:63,top:197.31249999999997,width:3969,height:2646;",
+              "caption": "Restaurant signage · [Tokyo, Japan](https://www.google.com/maps/place/35.66486666666667,139.7280111111111)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 18:19</small>"
+            }
+          ]
+        }
+      ]
     },
+
     {
       "type": "text",
       "class": "break-before",

@@ -22,12 +22,63 @@
       "title": "Stefan Huber · 2024"
     },
     {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "crop": "crop@left:336.00000000000017,top:0,width:2688,height:4032;",
+              "caption": "Street life · [Misaki, Japan](https://www.google.com/maps/place/34.95858055555556,133.88639722222223)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 04. 11. 2023 11:55</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/e35718becc5a8de2592285c41ec1cb739d67de10ef7a7d0d2be19526369a29d7/resize@width:250;/IMG_3484.jpg.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "text",
       "body": "## Introduction\nThis thesis explores unspoken and purely visual elements in Japanese typography[^chat-gpt-title] from the perspective of a typographer familiar with languages written in the Latin alphabet. It delves into the subtle, typographic features of Japanese script that are relevant in written form and highlights their significance in the broader context of typographic design and communication. The goal is to observe these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis approach is not about cultural borrowing, but rather about the exploration of typographic diversity[^youtube-japanese-modern-typography] and its potential to enrich Latin typography. This exploration is aimed at understanding how diverse typographic elements can coexist and enhance each other. It reflects a broader perspective on the potential for typographic elements to evolve and adapt in a globally connected environment.\n\n[^youtube-japanese-modern-typography]: [Tanaka Ikko and the Japanese Modern Typography](https://www.youtube.com/watch?v=4q4gycuJhks)\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan (28. 10. 2023 – 13. 11. 2023) where most observations were documented. Generative AI was used in co-authorship and is clearly marked with footnotes where the AI had a creative process. Other parts of this work might also be supported with AI, but only as a tool to formulate, translate or expand the author's original thoughts.\n\n\n\n[^chat-gpt-title]: [ChatGPT · Finding a title for this thesis](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)"
     },
     {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "crop": "rotate@angle:1;crop@left:405.41326959897344,top:419.8792687768478,width:3511.1842159816065,height:5266.673693173834;",
+              "caption": "Manhole cover · [Ueno Park, Toyo, Japan](https://www.google.com/maps/place/35.71740833333334,139.7743388888889)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 09. 11. 2023 13:16</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/43d913d5d07f0fa4dabc5ff83fe6791dcf35cc9d584cba07f4355817c8000455/resize@width:250;/IMG_3812.jpg.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "text",
       "body": "## Table of Content\n\n<nav>\n\n* [Reference mark](#reference-mark)\n* [Brackets](#brackets)\n* [Markers of Approval and Disapproval](#markers-of-approval-disapproval)\n* [Setting aesthetic accents](#setting-aesthetic-accents)\n* [Typographic Strategies for Webpage Integrations](#typographic-strategies-for-webpage-integrations)\n* [The Final Stroke](#finals-stroke)\n\n</nav>\n"
+    },
+    {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 12,
+          "children": [
+            {
+              "type": "image",
+              "crop": "crop@left:0,top:416.5,width:5712,height:3808;",
+              "caption": "Menu · [Tokyo, Japan](https://www.google.com/maps/place/35.70378055555556,139.6009361111111)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 08. 11. 2023 19:17</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/ecd4bdcad3ac2704f93c5dcce98973042ebc06c012a5b1e44b0871b89c37ef65/resize@width:250;/IMG_3750.jpg.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "text",
@@ -274,6 +325,23 @@
       "title": "Example · Reference mark as fleuron"
     },
     {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "crop": "crop@left:59.733333333333334,top:0,width:2688,height:4032;",
+              "caption": "Street life · [Ueno Park, Toyo, Japan](https://www.google.com/maps/place/35.718250000000005,139.77346666666668)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 15:36</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/e8b9dde382b9a1e64477486eac57031a48c26baed93411a5fa9d2eff1799ca4a/resize@width:250;/IMG_3206.jpg.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "text",
       "body": "## <span id=\"brackets\"></span>Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)\n\n\n"
     },
@@ -466,47 +534,29 @@
       "title": "Example · Corner brackets used in Latin Alphabet"
     },
     {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 12,
+          "children": [
+            {
+              "type": "image",
+              "crop": "rotate@angle:-90;crop@left:0,top:396.66666666666663,width:5712,height:3808;",
+              "caption": "Manhole cover · [Tokyo, Japan](https://www.google.com/maps/place/35.66510833333333,139.72903333333335)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 29. 10. 2023 14:34</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/dc0f2216d7b2cf9c9075f85a181ab4e4192e7c623ae4c46e54f08f0428a3e4a7/resize@width:250;/IMG_3109.jpg.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "text",
       "body": "## <span id=\"markers-of-approval-disapproval\"></span>Markers of Approval and Disapproval\n\nIn typography, the symbols used to represent concepts can vary significantly between cultures. In the Western world, the cross (✕) and checkmark (✓) are commonly used to denote incorrect and correct items, respectively.\nThe cross (✕), has evolved to become a universal sign of error or disagreement in the context of the Latin alphabet. Similarly, the checkmark (✓), originating as a mark of confirmation or correctness, is well understood in the western world. In Japan, different symbols are used for similar purposes."
     },
     {
       "type": "text",
       "body": "### Observations of the Japanese symbols\nThe circle (〇), known as «maru» in Japanese, signifies approval or completion. It is used to indicate that something is correct or acceptable, akin to the checkmark in the Western context. A double line (✕), known as «batsu» in Japanese, is used for marking something wrong or incorrect. It is similar in use to the Western cross.\n\nOther Symbols: Japanese typography may also use other symbols for specific contexts, like in grading or feedback forms. The symbol of a bullseye (◎) is called «nijūmaru» and often used to denote excellence or superiority, A triangle (△) can carry the meaning «so-so» and is named «sankaku»\n\n\nFor instance, a triangle might be used to denote something that needs attention or improvement.\n\n"
-    },
-    {
-      "type": "box",
-      "preset": "expample",
-      "children": [
-        {
-          "type": "grid",
-          "children": [
-            {
-              "cols": 5,
-              "children": [
-                {
-                  "type": "image",
-                  "path": "https://media.signalwerk.ch/japanese-typography/0804f9a2b2be68955e255244a81cd58c4700a252d82d7652cce0252580dfc703/resize@width:250;/DualShock_4.jpg",
-                  "caption": "Sony DualShock 4 (DS4) controller for the PlayStation 4<small> · Photo:&nbsp;[Evan Amos](https://commons.wikimedia.org/wiki/File:DualShock_4.jpg)</small>"
-                }
-              ]
-            },
-            {
-              "cols": 1,
-              "children": []
-            },
-            {
-              "cols": 6,
-              "children": [
-                {
-                  "type": "text",
-                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (<span style=\"filter: grayscale(50%);\">🙆</span>) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "title": "Example · Japnese symbols entering western culture"
     },
     {
       "type": "box",
@@ -554,6 +604,41 @@
           "type": "grid",
           "children": [
             {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/0804f9a2b2be68955e255244a81cd58c4700a252d82d7652cce0252580dfc703/resize@width:250;/DualShock_4.jpg",
+                  "caption": "Sony DualShock 4 (DS4) controller for the PlayStation 4<small> · Photo:&nbsp;[Evan Amos](https://commons.wikimedia.org/wiki/File:DualShock_4.jpg)</small>"
+                }
+              ]
+            },
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (<span style=\"filter: grayscale(50%);\">🙆</span>) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · Japnese symbols entering western culture"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
               "cols": 4,
               "children": [
                 {
@@ -581,6 +666,23 @@
     {
       "type": "text",
       "body": "### Takeaway markers\n\nThe exploration of Japanese and western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides."
+    },
+    {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "crop": "crop@left:112,top:0,width:2688,height:4032;",
+              "caption": "Storage space · [teamLab office, Tokyo, Japan](https://www.google.com/maps/place/35.695274999999995,139.76487777777777)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 08. 11. 2023 15:32</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/b58edb9aa5e5295968e207d4fff165d0a1db7f629de6b220349d940d1b1e5236/resize@width:250;/IMG_3709.jpg.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "text",
@@ -828,6 +930,23 @@
       "body": "### Takeaways for webpage integrations\nThe Japanese method of indicating web content through search terms within a graphic representation of a search field offers intriguing possibilities for Western typography and graphic design. It prompts a reevaluation of how we guide viewers to online content and the potential for more integrated, aesthetically pleasing solutions. This approach also underscores the importance of understanding user behaviours and preferences in the digital age.\n\nFor Western designers, adopting a similar strategy could mean creating a more seamless bridge between print and digital media. It encourages a thoughtful consideration of keywords, their typographic presentation, and how they can be visually harmonized within a design. This method also invites designers to explore more iconographic elements in typography, blending text and imagery in innovative ways."
     },
     {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/13fae4bc8dcdd5ee7e15ff8426bfdfc067b984baeddecc72d8c14c8a84916129/resize@width:250;/IMG_3639.jpg.jpg",
+              "crop": "crop@left:0,top:0,width:2688,height:4032;",
+              "caption": "Museum Scene · [21st Century Museum of Contemporary Art, Kanazawa, Japan](https://www.google.com/maps/place/36.56063888888889,136.65705833333334)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 07. 11. 2023 12:18</small>"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "text",
       "body": "## <span id=\"finals-stroke\"></span>The Final Stroke\n\n\nIn conclusion, the vital role of Japanese typography in design and communication aesthetics becomes apparent when viewed through a Western typographic lens. The subtle elements of this typography offer not only aesthetic charm but also a deeper understanding of the cultural context in which it is shaped.\n\nTakeaways: The importance of subtlety and cultural nuances in typography cannot be overlooked, and the fusion of different typographic traditions can greatly enhance global design narratives[^chatgpt-final-chapter].\n\n\n[^chatgpt-final-chapter]: [ChatGPT · Finding a title for the chaptere «The Final Stroke»](https://chat.openai.com/share/c90689ce-a678-432f-9289-baaa9b30c14e)"
     },
@@ -836,9 +955,21 @@
       "body": "### Impressum\nAuthor · Stefan Huber, Zurich, Switzerland  \nYear of publication · 2024  \nLicence · [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  \nFonts · Work Sans is a versatile typeface created by Wei Huang that draws inspiration from early Grotesques. It has continuously evolved to meet the demands of modern typography. To provide comprehensive symbol, emoji, and Japanese character coverage, the font Noto was utilized as a fallback option.\n\n\nPublished under [typography.japan.signalwerk.ch](https://typography.japan.signalwerk.ch/)"
     },
     {
-      "type": "text",
-      "class": "break-before",
-      "body": "### &nbsp;"
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 12,
+          "children": [
+            {
+              "type": "image",
+              "path": "https://media.signalwerk.ch/japanese-typography/d27276b84ea2595dd0feda84c1b882365f4079adddce5cd2b04042c5fa651836/resize@width:250;/IMG_3081.jpg.jpg",
+              "crop": "crop@left:63,top:197.31249999999997,width:3969,height:2646;",
+              "caption": "Restaurant signage · [Tokyo, Japan](https://www.google.com/maps/place/35.66486666666667,139.7280111111111)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 18:19</small>"
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "text",

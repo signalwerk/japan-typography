@@ -247,6 +247,23 @@
         }
       ],
       "title": "Example · Reference mark as fleuron"
+    },
+    {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 10,
+          "children": [
+            {
+              "type": "image",
+              "crop": "crop@left:59.733333333333334,top:0,width:2688,height:4032;",
+              "caption": "Street life · [Ueno Park, Toyo, Japan](https://www.google.com/maps/place/35.718250000000005,139.77346666666668)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 15:36</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/e8b9dde382b9a1e64477486eac57031a48c26baed93411a5fa9d2eff1799ca4a/resize@width:250;/IMG_3206.jpg.jpg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

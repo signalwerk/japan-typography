@@ -195,6 +195,23 @@
         }
       ],
       "title": "Example · Corner brackets used in Latin Alphabet"
+    },
+    {
+      "type": "grid",
+      "class": "full-width break-before",
+      "children": [
+        {
+          "cols": 12,
+          "children": [
+            {
+              "type": "image",
+              "crop": "rotate@angle:-90;crop@left:0,top:396.66666666666663,width:5712,height:3808;",
+              "caption": "Manhole cover · [Tokyo, Japan](https://www.google.com/maps/place/35.66510833333333,139.72903333333335)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 29. 10. 2023 14:34</small>",
+              "path": "https://media.signalwerk.ch/japanese-typography/dc0f2216d7b2cf9c9075f85a181ab4e4192e7c623ae4c46e54f08f0428a3e4a7/resize@width:250;/IMG_3109.jpg.jpg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

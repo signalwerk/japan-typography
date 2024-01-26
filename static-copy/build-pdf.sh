@@ -110,13 +110,10 @@ merge_pdfs() {
 #     convert_to_pdf "$page"
 # done
 
-
-
-
-# convert_to_pdf "/print/" "$basePath/pdf/print.pdf"
-# pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
-pdfcpu booklet -- "formsize:A3" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
-
-
 # Merge the generated PDFs
 # merge_pdfs "_merged.pdf"
+
+
+convert_to_pdf "/" "$basePath/pdf/print.pdf"
+pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
+pdfcpu booklet -- "formsize:A3" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
