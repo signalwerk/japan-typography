@@ -1,0 +1,849 @@
+{
+  "title": "The Unvoiced Aesthetics of Japanese Typography",
+  "path": "/",
+  "draft": false,
+  "date": "1703972806211",
+  "children": [
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "text",
+          "body": "# The Unvoiced Aesthetics of Japanese Typography",
+          "class": "full-width header"
+        },
+        {
+          "type": "text",
+          "body": "### An Observation"
+        }
+      ],
+      "class": "header",
+      "title": "Stefan Huber · 2024"
+    },
+    {
+      "type": "text",
+      "body": "## Introduction\nThis thesis explores unspoken and purely visual elements in Japanese typography[^chat-gpt-title] from the perspective of a typographer familiar with languages written in the Latin alphabet. It delves into the subtle, typographic features of Japanese script that are relevant in written form and highlights their significance in the broader context of typographic design and communication. The goal is to observe these elements and showcase how they contribute to the overall aesthetics of written Japanese.\n\nThis approach is not about cultural borrowing, but rather about the exploration of typographic diversity[^youtube-japanese-modern-typography] and its potential to enrich Latin typography. This exploration is aimed at understanding how diverse typographic elements can coexist and enhance each other. It reflects a broader perspective on the potential for typographic elements to evolve and adapt in a globally connected environment.\n\n[^youtube-japanese-modern-typography]: [Tanaka Ikko and the Japanese Modern Typography](https://www.youtube.com/watch?v=4q4gycuJhks)\n\nThis thesis was written as part of the CAS Design Cultures 2023 program at [Zurich University of the Arts](https://www.zhdk.ch/) and based on a field trip to Japan (28. 10. 2023 – 13. 11. 2023) where most observations were documented. Generative AI was used in co-authorship and is clearly marked with footnotes where the AI had a creative process. Other parts of this work might also be supported with AI, but only as a tool to formulate, translate or expand the author's original thoughts.\n\n\n\n[^chat-gpt-title]: [ChatGPT · Finding a title for this thesis](https://chat.openai.com/share/11bed6ad-e575-4b5c-a4ed-7855d96ab6b7)"
+    },
+    {
+      "type": "text",
+      "body": "## Table of Content\n* [Reference mark](./reference-mark/)\n* [Brackets](./brackets/)\n* [Markers of Approval and Disapproval](./markers-of-approval-disapproval/)\n* [Setting aesthetic accents](./setting-aesthetic-accents/)\n* [Typographic Strategies for Webpage Integrations](./typographic-strategies-for-webpage-integrations/)\n * [The Final Stroke](./finals-stroke/)"
+    },
+    {
+      "type": "text",
+      "body": "## Reference mark ※\nThe reference mark ※, known as the «komejirushi» in Japanese, is a symbol used in Japanese typography with specific usage. It serves to highlight additional information, similar to the usage of footnotes in Western texts. It is typically found in academic texts, annotated works, or in instances where additional information is necessary but not always integral to the primary text. Its distinct appearance, resembling a flower or asterisk. Its name literally translates to «rice symbol», as the symbol resembles to the kanji for «rice» (米)[^wiki-reference-mark]. The visual appearance is unique, and it adds both functionality and contextual value to the text.  \n\n\n[^wiki-reference-mark]: [Wikipedia · Reference mark](https://en.wikipedia.org/wiki/Reference_mark)"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "In the context shown, the reference mark is used as an indicator for fine print. There is not a specific point where the mark is referencing to but just a general remark. It is used across the languages. "
+                }
+              ]
+            },
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/bc67b68d768df3ff692b12b17921827e34e9609bc139f374d4ed5fbe0504b993/resize@width:130;/IMG_3223.jpg.jpg",
+                  "caption": "Menu · [Izuei Main restaurant, Tokyo, Japan](https://www.google.com/maps/place/35.70970555555556,139.77270555555558)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 19:04</small>",
+                  "crop": "crop@left:0,top:336.00000000000017,width:4032,height:2688;",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Fine print with reference mark"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
+                  "crop": "crop@left:119,top:0,width:3808,height:5712;",
+                  "alt": "",
+                  "caption": "Street bulletin board · [Tokyo, Japan](https://www.google.com/maps/place/35.724944444444446,139.7859638888889)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:54</small>"
+                }
+              ]
+            },
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
+                  "crop": "crop@left:1618.3999999999999,top:1223.46875,width:1068.3555555555556,height:641.2698412698413;",
+                  "alt": "",
+                  "caption": "Detail view"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "On this small poster found on a street bulletin board, the reference mark is used to further specify some general information or to lead people where they can find more information.\n\n"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "---\n\nTranslation[^deepL-corner-ref-mark] (partial)\n\n`JP`:\n開館時間  9時~16時30分（入館は16時まで）  \n休館日 毎週月曜日（祝休日の場合は翌平日）  \n※展示替えのため10月16日（月）～20日（金）、  \n12月11日（月）～15日（金）は休館いたします  \n※ご来館の前にホームページ等で最新情報をご確認ください  \n\n\n`EN`:\nHours: 9:00 – 16:30 (admission by 16:00)  \nClosed: Mondays (or the following weekday if the Monday is a national holiday)  \n\\* The museum will be closed for exhibition changes from October 16 (Mon.) to 20 (Fri.) and from December 11 (Mon.) to 15 (Fri.),  \nClosed on Monday, October 16 through Friday, December 11 through Friday, December 15 for exhibition changes.  \n\\* Please check the website for the latest information before visiting the museum.\n\n[^deepL-corner-ref-mark]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E9%96%8B%E9%A4%A8%E6%99%82%E9%96%93%20%209%E6%99%82~16%E6%99%8230%E5%88%86%EF%BC%88%E5%85%A5%E9%A4%A8%E3%81%AF16%E6%99%82%E3%81%BE%E3%81%A7%EF%BC%89%0A%E4%BC%91%E9%A4%A8%E6%97%A5%20%E6%AF%8E%E9%80%B1%E6%9C%88%E6%9B%9C%E6%97%A5%EF%BC%88%E7%A5%9D%E4%BC%91%E6%97%A5%E3%81%AE%E5%A0%B4%E5%90%88%E3%81%AF%E7%BF%8C%E5%B9%B3%E6%97%A5%EF%BC%89%0A%E2%80%BB%E5%B1%95%E7%A4%BA%E6%9B%BF%E3%81%88%E3%81%AE%E3%81%9F%E3%82%8110%E6%9C%8816%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89%EF%BD%9E20%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89%E3%80%81%0A12%E6%9C%8811%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89%EF%BD%9E15%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89%E3%81%AF%E4%BC%91%E9%A4%A8%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%99%0A%E2%80%BB%E3%81%94%E6%9D%A5%E9%A4%A8%E3%81%AE%E5%89%8D%E3%81%AB%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E7%AD%89%E3%81%A7%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B1%E3%82%92%E3%81%94%E7%A2%BA%E8%AA%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84)",
+                  "class": "translation"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Reference marks used for further explanations"
+    },
+    {
+      "type": "box",
+      "title": "Observation · Reference mark in english texts",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 7,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/aa32069fe40a96df46ac42210ea1cb81b9f6dee1ff4077c276615f946100f098/resize@width:250;/Japan Rail Pass Table vehicle A.png.jpg"
+                },
+                {
+                  "type": "text",
+                  "body": "<br/>"
+                },
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/2b5aca69f99d295dedcb6234b27c2b29feb7d860a353d0d6a24af003a509e64e/resize@width:250;/Japan Rail Pass Table vehicle B.png.jpg",
+                  "caption": "[Website Japan Rail Pass · Train accommodations](https://japanrailpass.net/en/about_jrp/vehicle/) · [archive copy](https://web.archive.org/web/20240120160729/https://japanrailpass.net/en/about_jrp/vehicle/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
+                }
+              ]
+            },
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "On the website of [Japan Rail Pass](https://japanrailpass.net/) the reference mark is extensively used. In this particular place, it is used as an indicator for numbered footnotes. Where in Latin typography the number stands by itself, in this case (also Latin typography but obviously set in another cultural understanding/background) the reference numbers are accompanied by the reference mark."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 7,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/99c35c5c39056a11435f050e2a354cf0dbaee980494b1df3c092b9d6f628a93f/resize@width:250;/Japan Rail Pass Table price.png.jpg",
+                  "caption": "[Website Japan Rail Pass · Types and prices](https://japanrailpass.net/en/purchase/price/) · [archive copy](https://web.archive.org/web/20240120160546/https://japanrailpass.net/en/purchase/price/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
+                }
+              ]
+            },
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "On another page, the same reference mark is used to indicate a footnote. In this case, the reference mark is used in a similar way as in Latin typography for a footnote. The big difference is that the reference was not set in the table, but only added in the footer."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "body": "### Comparison with Latin Alphabet Typography\nWhen comparing the ※ mark with typographical practices in the Latin alphabet, the closest equivalents are the asterisk (*), dagger (†), and double dagger (‡). These symbols are used in a similar manner, directing readers to footnotes or endnotes for additional information. However, the ※ mark differs in its design and cultural context.   \nBut even in cultures that use the Latin alphabet, not all markings are used uniformly. For instance, in English academic writing, the dagger (†) is often used as a secondary footnote marker after the asterisk (\\*)[^wiki-reference-dagger]. In German texts, the usage is similar, but there is a greater tendency to indicate deceased individuals, particularly in bibliographies, and this practice is more consistent. Nevertheless, both languages employ the dagger sparingly to maintain text clarity.\n\n\n\n[^wiki-reference-dagger]: [Wikipedia · Dagger (mark)](https://en.wikipedia.org/wiki/Dagger_(mark))"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Gemäss Jan&nbsp;Tschichold (`†` 1974) ",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "In German writing, the dagger is often used to indicate a deceased person.  \nIn this Example, it signifies the year 1974 as the year of death."
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "According to Jan&nbsp;Tschichold`†`.",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "In English writing, the dagger is often used to indicate a footnote.  \nIn this example, the reader would expect an additional text at the end of the page or at the end of the text."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · References in western typography"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaways from the Reference Mark\nThe presence of symbols with a similar purpose in structuring tests in both Japanese and Latin scripts highlights a universal demand in typography. This demand is for the inclusion of supplementary information without overpowering or disrupting the main text. Different cultures have discovered diverse methods to fulfil this requirement effectively.",
+      "class": "break-before"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "`※※` HELLO `※※`  \n ❦ ❦ WORLD ❦ ❦",
+                  "class": "text--typo-example"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Decorative marks in the form of fleurons (printers' flowers) are sometimes used in Latin texts. One of the most common fleurons is the Aldus leaf ❦, also known as a floral heart. The geometric and symmetric character of the Japanese reference mark could be used as a modern form of a fleuron."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · Reference mark as fleuron"
+    },
+    {
+      "type": "text",
+      "body": "## Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)\n\n\n"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "<br/>I live in Paris  \n`(`the capital of France`)`.",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Parentheses are used to insert non-essential yet informative asides, offering a subtle typographical division that maintains the sentence's structure."
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Her theory was accepted  \n(see Smith `[`1999`]`, p. 57)",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Square brackets have a more specific role, often used in academic and technical writing or as a second order of structure inside Parentheses."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · Brackets in Latin Alphabet"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Structure of a sentence; `{`Subject`}` `{`Verb`}` `{`Object`}`.",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Curly brackets are predominantly used in specialized fields like mathematics to group items or alternatives, providing a distinct visual separation in complex textual structures."
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "`<`strong`>`<br>This is important<br>`<`/strong`>`",
+                  "class": "text--typo-example"
+                },
+                {
+                  "type": "text",
+                  "body": "Angle brackets, common in technical and computer-related texts, enclose specific elements, offering a clear technical (but also typographical) distinction for specialized content."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · Special cases of brackets in Latin Alphabet"
+    },
+    {
+      "type": "text",
+      "body": "### Observations of Japanese Brackets\n\nJapanese typography features a range of typographic symbols[^wiki-japanese-typographic-symbols], each serving specific aesthetic and functional purposes within the script. This aspect of typographic design showcases the variety and distinct roles these elements play, contributing to the overall structure and style of the script.\n\nJapanese script features various brackets[^wiki-japanese-punctuation], such as corner brackets「」/『』, lenticular brackets【】, and tortoise shell brackets〔〕. Each type of bracket serves a specific purpose and is chosen based on the context and content of the text. \nThe functional aspects of these brackets are diverse. For instance, corner brackets are commonly used for direct speech[^jpn-with-anime] or titles, while lenticular brackets often enclose definitions or explanations. This functional specificity enhances the meaning and clarity of the written text.\n\n[^jpn-with-anime]: [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)\n[^wiki-japanese-punctuation]: [Wikipedia · Japanese punctuation](https://en.wikipedia.org/wiki/Japanese_punctuation)\n[^wiki-japanese-typographic-symbols]: [Wikipedia · Japanese typographic symbols](https://en.wikipedia.org/wiki/List_of_Japanese_typographic_symbols)"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 7,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/435e5ed052dad3ccd0ce8fbe54f5e6bfd3ee7669676dd3d659911a13cc1fa8f4/resize@width:130;/IMG_3136.jpg.jpg",
+                  "crop": "crop@left:465.5,top:410.64843749999994,width:3276,height:2184;",
+                  "caption": "Shelf label · [rébon Kaisaiyu, Tokyo](https://www.google.com/maps/place/35.722211111111115,139.78500277777778)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 10:26</small>"
+                }
+              ]
+            },
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "#### Corner brackets「 」\nCorner brackets can have multiple functions. In the shown case, they are used as a handling for a title of a specific artwork. Similar to the usage of quotation marks in english/german.\n\n"
+                },
+                {
+                  "type": "text",
+                  "body": "---\n\nTranslation[^deepL-corner-bracket]\n\n`JP`:「ピエロ太陽と傘」  \n`EN`: «Clowns, suns and umbrellas»\n\n[^deepL-corner-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%8C%E3%83%94%E3%82%A8%E3%83%AD%E5%A4%AA%E9%99%BD%E3%81%A8%E5%82%98%E3%80%8D)",
+                  "class": "translation"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Handwritten corner brackets"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "#### Lenticular brackets 【 】\nIn the screenshot, there is a message displayed for a tsunami evacuation drill sent through cell broadcast. The lenticular brackets are used to categorize and emphasize the following text, acting like a title.\n\nCell broadcast is a widely used method in emergency communication systems for sending messages to multiple mobile telephones (although it is not commonly used in Switzerland).\n\n"
+                },
+                {
+                  "type": "text",
+                  "body": "\n---\n\nTranslation[^deepL-lenticular-bracket] (partial)\n\n`JP`:【訓練】兵庫県津波一斉避難訓練  \n`EN`: [Drill] Hyogo Prefecture Simultaneous Tsunami Evacuation Drill.\n\n[^deepL-lenticular-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%90%E8%A8%93%E7%B7%B4%E3%80%91%E5%85%B5%E5%BA%AB%E7%9C%8C%E6%B4%A5%E6%B3%A2%E4%B8%80%E6%96%89%E9%81%BF%E9%9B%A3%E8%A8%93%E7%B7%B4)",
+                  "class": "translation"
+                }
+              ]
+            },
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/1bc330e3dcb2c68d1600a80ff66594e005d0f00da0a34caf6495d7f71bc3d406/resize@width:130;/IMG_3376.PNG.jpg",
+                  "crop": "crop@left:0,top:643.7333333333332,width:1179,height:785.9798611111112;",
+                  "caption": "Alert for a disaster drill · [Zenbo Seinei, Awaji Island, Japan](https://www.google.com/maps/place/34.57884,134.98534)<small> · Screenshot:&nbsp;Stefan&nbsp;Huber · 02. 11. 2023 10:04</small>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Styling with lenticular brackets"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaways brackets\nWith the introduction of global text exchange encoding (Unicode) and the convenience of accessing numerous characters from various languages, it is only appropriate to embrace the diversity of typographic elements, such as diverse brackets, in Latin texts. The distinct shapes and aesthetics that the Japanese forms offer can provide fresh perspectives. By incorporating these elements into Latin typography, we can enhance the visual appeal of our texts, particularly in formats where our options for text formatting are limited, such as social media. Having a wider range of expression in such contexts is greatly appreciated."
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "`「`TODAY`」` Vegan Kitchen!",
+                  "class": "text--typo-example"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · Corner brackets used in Latin Alphabet"
+    },
+    {
+      "type": "text",
+      "body": "## Markers of Approval and Disapproval\n\nIn typography, the symbols used to represent concepts can vary significantly between cultures. In the Western world, the cross (✕) and checkmark (✓) are commonly used to denote incorrect and correct items, respectively.\nThe cross (✕), has evolved to become a universal sign of error or disagreement in the context of the Latin alphabet. Similarly, the checkmark (✓), originating as a mark of confirmation or correctness, is well understood in the western world. In Japan, different symbols are used for similar purposes."
+    },
+    {
+      "type": "text",
+      "body": "### Observations of the Japanese symbols\nThe circle (〇), known as «maru» in Japanese, signifies approval or completion. It is used to indicate that something is correct or acceptable, akin to the checkmark in the Western context. A double line (✕), known as «batsu» in Japanese, is used for marking something wrong or incorrect. It is similar in use to the Western cross.\n\nOther Symbols: Japanese typography may also use other symbols for specific contexts, like in grading or feedback forms. The symbol of a bullseye (◎) is called «nijūmaru» and often used to denote excellence or superiority, A triangle (△) can carry the meaning «so-so» and is named «sankaku»\n\n\nFor instance, a triangle might be used to denote something that needs attention or improvement.\n\n"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/0804f9a2b2be68955e255244a81cd58c4700a252d82d7652cce0252580dfc703/resize@width:250;/DualShock_4.jpg",
+                  "caption": "Sony DualShock 4 (DS4) controller for the PlayStation 4<small> · Photo:&nbsp;[Evan Amos](https://commons.wikimedia.org/wiki/File:DualShock_4.jpg)</small>"
+                }
+              ]
+            },
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (<span style=\"filter: grayscale(50%);\">🙆</span>) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Example · Japnese symbols entering western culture"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
+                  "crop": "rotate@angle:1.7;crop@left:236.9056188451194,top:576.0214773833518,width:3223.352207922989,height:2148.9645798919837;",
+                  "caption": "Information screen · [Train station Tokyo, Japan](https://www.google.com/maps/place/35.6806,139.7669527777778)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 06:09</small>"
+                }
+              ]
+            },
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Example of the usage of maru (〇) and batsu (✕) in the daily life without further explanation."
+                },
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
+                  "crop": "rotate@angle:1.7;crop@left:1493.2232945389344,top:913.1076762170951,width:1084.022680170092,height:722.7030101641193;",
+                  "caption": "Detail view"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · self-explanatory symbols according to culture"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "In the given example, the culturally independent iconography of cash and cash-less payment encounters a cultural barrier when combined with the use of culturally dependent symbols."
+                }
+              ]
+            },
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/d8d53d4cb4cce33a348c835783c3d66832ed8a6376c223defecbb259438a8bc2/resize@width:250;/IMG_3254.jpg.jpg",
+                  "caption": "[Train station, Osaka, Japan](https://www.google.com/maps/place/34.70560555555556,135.49766666666665)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 11:36</small>",
+                  "crop": "crop@left:117.3626060455257,top:1646.6472620787072,width:3364.33802917658,height:2242.8840794619164;"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Symbols and iconography in combination"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaway markers\n\nThe exploration of Japanese and western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides."
+    },
+    {
+      "type": "text",
+      "body": "## Setting aesthetic accents\n\n### Directional Dynamics\nJapanese typography, unique in its versatility, allows for both horizontal and vertical orientations in text layout. This dual-directional approach not only accommodates linguistic nuances but also offers a dynamic typographic landscape. Historically, vertical writing (tategaki) was the norm, running from top to bottom and right to left. However, influenced by Western styles, horizontal writing (yokogaki) – running from left to right and top to bottom – has become wide spread in modern Japan, particularly in digital media.[^wiki-japanese-writing-system]  \nThe choice of direction can also be used to separate or accentuate[^gpt-setting-aesthetic-accents] specific elements within a text. This interplay between vertical and horizontal orientations adds a layer of visual interest and meaning, making the text not just a carrier of information but also an element of design.\n\n\n\n[^wiki-japanese-writing-system]: [Wikipedia · Japanese writing system](https://en.wikipedia.org/wiki/Japanese_writing_system)\n[^gpt-setting-aesthetic-accents]: [ChatGPT · finding a title for the chapter «Setting aesthetic accents»](https://chat.openai.com/share/5f01e089-efbc-439e-bcfe-f1bfb978b2bc)"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "image",
+                  "caption": "Ticket: The 90th Anniversary Exhibition of Dokuritsu Art Association · [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66513888888889,139.7268222222222)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 17:47</small>",
+                  "path": "https://media.signalwerk.ch/japanese-typography/191547a2dbca5eec8dc99d138eff001c3c2656bf0840c9577df49bdacb2e1c11/resize@width:250;/IMG_3068.jpg.jpg",
+                  "crop": "rotate@angle:1;crop@left:90.99728037964866,top:68.06936639894859,width:2473.235173747126,height:3709.780468742698;"
+                }
+              ]
+            },
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "This ticket is a compelling example of how writing direction can impact the aesthetic and functional aspects of Japanese typography.  \nThe ticket makes immediate use of vertical writing for the central information, which is the name of the event. This is accentuated by the bold, black characters against the pink background, ensuring high contrast and legibility.\nThe choice of vertical orientation for the main text is balanced by the horizontal text used for supplementary information. \nThe contrast in directionality creates a dynamic interplay that guides the viewer's eye. It is also interesting how the English text is integrated.\n\n\n\n---\n\nTranslation[^deepL-directional-dynamics] (partial)\n\n`JP`: 独立展  \n● この券で入場当日\nに限り、第90回記念\n独立展（東京会場）\nをご自由に出入で\nきます。  \n● 各会場に入場の\n際は、この券をご\n提示ください。  \n\n独立美術協会\n\n`EN`: independent exhibition\n* This ticket allows you to freely enter and exit the 90th Commemorative Independent Exhibition (Tokyo venue) on the day of admission.   \n* Please present this ticket when entering each venue.  \n\n\nIndependent Art Association\n\n[^deepL-directional-dynamics]: [DeepL · Translation](https://www.deepl.com/translator#ja/de/%E7%8B%AC%E7%AB%8B%E5%B1%95%20%0A%E2%97%8F%E3%81%93%E3%81%AE%E5%88%B8%E3%81%A7%E5%85%A5%E5%A0%B4%E5%BD%93%E6%97%A5%0A%E3%81%AB%E9%99%90%E3%82%8A%E3%80%81%E7%AC%AC90%E5%9B%9E%E8%A8%98%E5%BF%B5%0A%E7%8B%AC%E7%AB%8B%E5%B1%95%EF%BC%88%E6%9D%B1%E4%BA%AC%E4%BC%9A%E5%A0%B4%EF%BC%89%0A%E3%82%92%E3%81%94%E8%87%AA%E7%94%B1%E3%81%AB%E5%87%BA%E5%85%A5%E3%81%A7%0A%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82%0A%E2%97%8F%E5%90%84%E4%BC%9A%E5%A0%B4%E3%81%AB%E5%85%A5%E5%A0%B4%E3%81%AE%0A%E9%9A%9B%E3%81%AF%E3%80%81%E3%81%93%E3%81%AE%E5%88%B8%E3%82%92%E3%81%94%0A%E6%8F%90%E7%A4%BA%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0A%E2%80%94%0A%E7%8B%AC%E7%AB%8B%E7%BE%8E%E8%A1%93%E5%8D%94%E4%BC%9A)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Writing structures create visual hierarchies"
+    },
+    {
+      "type": "text",
+      "body": "### Sizing and colours\nSimilar to the Western world, size and colour are important factors in Japanese typography for creating aesthetic accents and directing the reader's focus. However, unlike Western typography, where cursive fonts are often used for emphasis or style, Japanese script does not have a direct cursive equivalent. As a result, alternative methods are necessary for typographic characterization. Font weights are commonly used, and there are many different typefaces available. Similarly, colour is not only used for visual appeal, but also to establish hierarchy and guide the reader's attention."
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/684e59b92d3eb63a555093234bae7001f57b78890e0aeff8126e529a55eca9c6/resize@width:250;/IMG_3099.jpg.jpg",
+                  "crop": "crop@left:425.75555555555553,top:0,width:3741.8888888888887,height:5612.833333333333;",
+                  "caption": "Poster behind window · [Tokyo, Japan](https://www.google.com/maps/place/35.67397777777778,139.73748888888886)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 29. 10. 2023 10:47</small>"
+                }
+              ]
+            },
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "A great example of how size and colour are used to create a visual hierarchy is this poster. The colour red is used to highlight an other text hierarchy."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Font size and colour guide the reader's eye"
+    },
+    {
+      "type": "text",
+      "body": "### Underlines and sidelines\nIn Japanese typography, both horizontal and vertical script orientations have a unique influence on the application and visual impact of underlines and sidelines within the text. This is done as a way to accentuate certain parts. Unlike Latin typography, which follows a horizontal flow, when text is set vertically, sidelines are used instead of underlines to highlight or emphasize specific characters or phrases."
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 8,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/6bf645ba20676a18849021ad6f55c3bcda88c6c76d32b7643da2dc22a498176c/resize@width:250;/IMG_3124.jpg.jpg",
+                  "crop": "rotate@angle:0.6;crop@left:449.73030707576584,top:787.7976019009164,width:3103.1391188227844,height:2068.802696310467;",
+                  "caption": "Detail view Signage · [Tokyo, Japan](https://www.google.com/maps/place/35.72645555555556,139.78803888888888)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:49</small>"
+                }
+              ]
+            },
+            {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "A triple accentuation on a signage:\n1. Coloured in red.\n2. Underlined within the red section.\n3. Second underline within the underlined and red section."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Lines to emphasize importance"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaways for setting aesthetic accents\n\n\nThe integration of both horizontal and vertical orientations in Japanese typography elevates its aesthetic and functional aspects, offering valuable insights for Western typography. This approach presents a unique text arrangement method, pushing the boundaries of traditional Western layouts and fostering inventive design practices. Despite the challenges posed by digital platforms, such as limited web support for vertically oriented text, embracing these approaches in Western typography can inspire imaginative designs that skilfully blend experimentation and modernity, leading to a richer typographic landscape.",
+      "class": "break-before"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/f3a73e52c7815df1cfe42e5dbfd0474c45ce3fe2b26bb216e409fa474dd4b62c/resize@width:250;/IMG_3073.jpg.jpg",
+                  "crop": "crop@left:433.6888888888889,top:10.577777777777778,width:3754.229629629629,height:5631.344444444444;",
+                  "caption": "Leaflet ·  [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66488611111111,139.72653333333332)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 17:53</small>"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Sidelines and underlines are used in both scripts to create artistic accentuation in a similar manner, regardless of the language."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Lines to emphasize importance"
+    },
+    {
+      "type": "text",
+      "class": "page-break-before-auto",
+      "body": "## Typographic Strategies for Webpage Integrations\n\n### Observations in Japanese Typography\nIn Japanese graphic design, particularly on posters, flyers, and other printed materials, there's a unique approach to directing viewers to webpages[^chat-gpt-print-to-web]. Instead of providing a direct URL (Uniform Resource Locator), designers opt for a small illustration resembling a search field accompanied by specific keywords. This method is a practical solution for directing audiences to web content.\n\nThe illustration usually depicts a simplified search bar, sometimes with a magnifying glass icon, similar to those found in web browsers or search engines. Next to or within this graphic, designers place keywords that are unique or highly relevant to the content being referenced. This method relies on the assumption that users will enter these keywords into a search engine to find the specific website. \n\nThe visual simplicity and elegance of this method reflects the common behaviour exhibited by users when transitioning to digital media – accessing content is typically done by using a search engine. By providing relevant keywords, the sender increases the likelihood that the user will find the desired page.\n\n\n[^chat-gpt-print-to-web]: [ChatGPT · Finding a title for the chapter «Typographic Strategies for Webpage Integrations»](https://chat.openai.com/share/5fd69319-88d2-47ef-87bc-6a63df580ab9)\n"
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/b0a1a03a314e073605eabf0c19a1bebaf5b17c879e355dc0b5b79801e3a613ce/resize@width:250;/IMG_3227.jpg.jpg",
+                  "crop": "rotate@angle:-0.5;crop@left:69.86834874708865,top:64.90538829407497,width:5344.928679152282,height:3563.392440274909;",
+                  "caption": "Poster · [Metro, Tokyo, Japan](https://www.google.com/maps/place/35.707858333333334,139.76973055555558)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 20:54</small>"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "crop": "rotate@angle:0.8;crop@left:99.016667607839,top:433.92074719789326,width:3679.927853632098,height:2453.361814528746;",
+                  "caption": "Poster detail · [Metro, Tokyo, Japan](https://www.google.com/maps/place/35.707858333333334,139.76973055555558)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 20:54</small>",
+                  "path": "https://media.signalwerk.ch/japanese-typography/39fd938160fd15d256173d34d96a55bcbdef79fd3a394453130396de3234e034/resize@width:250;/IMG_3228.jpg.jpg"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": []
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "<br />\n<br />\nTwo examples of integrating visual search fields in order to direct users to a search engine and motivate them to enter suggested keywords."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Iconographical webpage integration "
+    },
+    {
+      "type": "text",
+      "body": "### Western Typography\nIn contrast, Western graphic design typically uses direct URLs or QR codes to guide viewers to websites. URLs provide a straightforward, exact path to a specific webpage. \nQR codes, while innovative for technical use cases, face accessibility challenges for readers. They depend on specific technology, like smartphones with cameras and Apps understanding QR-codes. This creates barriers for groups like older adults or those without smartphones. Unlike search terms that convey information and can be remembered, QR codes are cryptic and give no hints about their content. Their use also demands immediate, direct interaction with the printed material, which can be inconvenient in public spaces. Unlike URLs or search terms that can be noted or remembered for later use, QR codes must be used at the moment, limiting their flexibility and longevity. While functional, QR codes are often seen as intrusive elements in a design layout, challenging designers to incorporate them without disrupting the visual harmony of the piece."
+    },
+    {
+      "type": "box",
+      "preset": "expample",
+      "children": [
+        {
+          "type": "grid",
+          "children": [
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/711f1c6b66d8b027ac67e41e21cb99c863534d4f867bcfdbdb62b52f4ee35bf6/resize@width:250;/IMG_3877.jpg.jpg",
+                  "crop": "crop@left:0,top:1766.4888888888888,width:4284,height:2856;",
+                  "caption": "Poster detail · [Tokyo, Japan](https://www.google.com/maps/place/35.69566388888889,139.76768611111112)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 12. 11. 2023 13:19</small>"
+                }
+              ]
+            },
+            {
+              "cols": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "Different forms how to integrate a URL into a design can be chosen. In this example, the URL is integrated into the design as a typographic element and QR code."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": "Observation · Combination of different strategies"
+    },
+    {
+      "type": "text",
+      "body": "### Takeaways for webpage integrations\nThe Japanese method of indicating web content through search terms within a graphic representation of a search field offers intriguing possibilities for Western typography and graphic design. It prompts a reevaluation of how we guide viewers to online content and the potential for more integrated, aesthetically pleasing solutions. This approach also underscores the importance of understanding user behaviours and preferences in the digital age.\n\nFor Western designers, adopting a similar strategy could mean creating a more seamless bridge between print and digital media. It encourages a thoughtful consideration of keywords, their typographic presentation, and how they can be visually harmonized within a design. This method also invites designers to explore more iconographic elements in typography, blending text and imagery in innovative ways."
+    },
+    {
+      "type": "text",
+      "body": "## The Final Stroke\n\n\nIn conclusion, the vital role of Japanese typography in design and communication aesthetics becomes apparent when viewed through a Western typographic lens. The subtle elements of this typography offer not only aesthetic charm but also a deeper understanding of the cultural context in which it is shaped.\n\nTakeaways: The importance of subtlety and cultural nuances in typography cannot be overlooked, and the fusion of different typographic traditions can greatly enhance global design narratives[^chatgpt-final-chapter].\n\n\n[^chatgpt-final-chapter]: [ChatGPT · Finding a title for the chaptere «The Final Stroke»](https://chat.openai.com/share/c90689ce-a678-432f-9289-baaa9b30c14e)"
+    },
+    {
+      "type": "text",
+      "body": "### Impressum\nAuthor · Stefan Huber, Zurich, Switzerland  \nYear of publication · 2024  \nLicence · [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  \nFonts · Work Sans is a versatile typeface created by Wei Huang that draws inspiration from early Grotesques. It has continuously evolved to meet the demands of modern typography. To provide comprehensive symbol, emoji, and Japanese character coverage, the font Noto was utilized as a fallback option.\n\n\nPublished under [typography.japan.signalwerk.ch](https://typography.japan.signalwerk.ch/)"
+    },
+    {
+      "type": "text",
+      "class": "break-before",
+      "body": "### &nbsp;"
+    },
+    {
+      "type": "text",
+      "class": "break-before",
+      "body": "### Footnotes"
+    }
+  ]
+}
