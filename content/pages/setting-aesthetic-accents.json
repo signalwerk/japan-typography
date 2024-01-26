@@ -4,7 +4,7 @@
   "children": [
     {
       "type": "text",
-      "body": "## Setting aesthetic accents\n\n### Directional Dynamics\nJapanese typography, unique in its versatility, allows for both horizontal and vertical orientations in text layout. This dual-directional approach not only accommodates linguistic nuances but also offers a dynamic typographic landscape. Historically, vertical writing (tategaki) was the norm, running from top to bottom and right to left. However, influenced by Western styles, horizontal writing (yokogaki) – running from left to right and top to bottom – has become wide spread in modern Japan, particularly in digital media.[^wiki-japanese-writing-system]  \nThe choice of direction can also be used to separate or accentuate[^gpt-setting-aesthetic-accents] specific elements within a text. This interplay between vertical and horizontal orientations adds a layer of visual interest and meaning, making the text not just a carrier of information but also an element of design.\n\n\n\n[^wiki-japanese-writing-system]: [Wikipedia · Japanese writing system](https://en.wikipedia.org/wiki/Japanese_writing_system)\n[^gpt-setting-aesthetic-accents]: [ChatGPT · finding a title for «Setting aesthetic accents»](https://chat.openai.com/share/5f01e089-efbc-439e-bcfe-f1bfb978b2bc)"
+      "body": "## Setting aesthetic accents\n\n### Directional Dynamics\nJapanese typography, unique in its versatility, allows for both horizontal and vertical orientations in text layout. This dual-directional approach not only accommodates linguistic nuances but also offers a dynamic typographic landscape. Historically, vertical writing (tategaki) was the norm, running from top to bottom and right to left. However, influenced by Western styles, horizontal writing (yokogaki) – running from left to right and top to bottom – has become wide spread in modern Japan, particularly in digital media.[^wiki-japanese-writing-system]  \nThe choice of direction can also be used to separate or accentuate[^gpt-setting-aesthetic-accents] specific elements within a text. This interplay between vertical and horizontal orientations adds a layer of visual interest and meaning, making the text not just a carrier of information but also an element of design.\n\n\n\n[^wiki-japanese-writing-system]: [Wikipedia · Japanese writing system](https://en.wikipedia.org/wiki/Japanese_writing_system)\n[^gpt-setting-aesthetic-accents]: [ChatGPT · finding a title for the chapter «Setting aesthetic accents»](https://chat.openai.com/share/5f01e089-efbc-439e-bcfe-f1bfb978b2bc)"
     },
     {
       "type": "box",
@@ -18,7 +18,7 @@
               "children": [
                 {
                   "type": "image",
-                  "caption": "Ticket: The 90th Anniversary Exhibition of Dokuritsu Art Association · [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66513888888889,139.7268222222222)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 17:47</small>",
+                  "caption": "Ticket: The 90th Anniversary Exhibition of Dokuritsu Art Association · [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66513888888889,139.7268222222222)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 17:47</small>",
                   "path": "https://media.signalwerk.ch/japanese-typography/191547a2dbca5eec8dc99d138eff001c3c2656bf0840c9577df49bdacb2e1c11/resize@width:250;/IMG_3068.jpg.jpg",
                   "crop": "rotate@angle:1;crop@left:90.99728037964866,top:68.06936639894859,width:2473.235173747126,height:3709.780468742698;"
                 }
@@ -60,7 +60,7 @@
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/684e59b92d3eb63a555093234bae7001f57b78890e0aeff8126e529a55eca9c6/resize@width:250;/IMG_3099.jpg.jpg",
                   "crop": "crop@left:425.75555555555553,top:0,width:3741.8888888888887,height:5612.833333333333;",
-                  "caption": "Poster behind window · [Tokyo, Japan](https://www.google.com/maps/place/35.67397777777778,139.73748888888886)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 29. 10. 2023 10:47</small>"
+                  "caption": "Poster behind window · [Tokyo, Japan](https://www.google.com/maps/place/35.67397777777778,139.73748888888886)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 29. 10. 2023 10:47</small>"
                 }
               ]
             },
@@ -100,7 +100,7 @@
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/6bf645ba20676a18849021ad6f55c3bcda88c6c76d32b7643da2dc22a498176c/resize@width:250;/IMG_3124.jpg.jpg",
                   "crop": "rotate@angle:0.6;crop@left:449.73030707576584,top:787.7976019009164,width:3103.1391188227844,height:2068.802696310467;",
-                  "caption": "Detail view Signage · [Tokyo, Japan](https://www.google.com/maps/place/35.72645555555556,139.78803888888888)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:49</small>"
+                  "caption": "Detail view Signage · [Tokyo, Japan](https://www.google.com/maps/place/35.72645555555556,139.78803888888888)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:49</small>"
                 }
               ]
             },
@@ -137,7 +137,7 @@
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/f3a73e52c7815df1cfe42e5dbfd0474c45ce3fe2b26bb216e409fa474dd4b62c/resize@width:250;/IMG_3073.jpg.jpg",
                   "crop": "crop@left:433.6888888888889,top:10.577777777777778,width:3754.229629629629,height:5631.344444444444;",
-                  "caption": "Leaflet ·  [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66488611111111,139.72653333333332)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 17:53</small>"
+                  "caption": "Leaflet ·  [The National Art Center, Tokyo](https://www.google.com/maps/place/35.66488611111111,139.72653333333332)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 28. 10. 2023 17:53</small>"
                 }
               ]
             },
@@ -146,7 +146,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "Sidelines and underlines are both used in scripts to create artistic accentuation in a similar manner."
+                  "body": "Sidelines and underlines are used in both scripts to create artistic accentuation in a similar manner, regardless of the language."
                 }
               ]
             }

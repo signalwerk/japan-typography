@@ -6,7 +6,7 @@
   "children": [
     {
       "type": "text",
-      "body": "## Reference mark ※\nThe reference mark ※, known as the «komejirushi» in Japanese, is a symbol used in Japanese typography with specific usage. Its name literally translates to «rice symbol», as the symbol resembles to the kanji for «rice» (米)[^wiki-reference-mark].\nIt serves to highlight additional information, similar to the usage of footnotes in Western texts. It is typically found in academic texts, annotated works, or in instances where additional information is necessary but not always integral to the primary text. Its distinct appearance, resembling a flower or asterisk. Its visual appearance is unique, and it adds both functionality and contextual value to the text.  \n\n\n[^wiki-reference-mark]: [Wikipedia · Reference mark](https://en.wikipedia.org/wiki/Reference_mark)"
+      "body": "## Reference mark ※\nThe reference mark ※, known as the «komejirushi» in Japanese, is a symbol used in Japanese typography with specific usage. It serves to highlight additional information, similar to the usage of footnotes in Western texts. It is typically found in academic texts, annotated works, or in instances where additional information is necessary but not always integral to the primary text. Its distinct appearance, resembling a flower or asterisk. Its name literally translates to «rice symbol», as the symbol resembles to the kanji for «rice» (米)[^wiki-reference-mark]. The visual appearance is unique, and it adds both functionality and contextual value to the text.  \n\n\n[^wiki-reference-mark]: [Wikipedia · Reference mark](https://en.wikipedia.org/wiki/Reference_mark)"
     },
     {
       "type": "box",
@@ -30,7 +30,7 @@
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/bc67b68d768df3ff692b12b17921827e34e9609bc139f374d4ed5fbe0504b993/resize@width:130;/IMG_3223.jpg.jpg",
-                  "caption": "[Izuei Main restaurant, Tokyo, Japan](https://www.google.com/maps/place/35.70970555555556,139.77270555555558) · [Website](http://www.izuei.co.jp/)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 19:04</small>",
+                  "caption": "Menu · [Izuei Main restaurant, Tokyo, Japan](https://www.google.com/maps/place/35.70970555555556,139.77270555555558)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 19:04</small>",
                   "crop": "crop@left:0,top:336.00000000000017,width:4032,height:2688;",
                   "alt": ""
                 }
@@ -49,6 +49,22 @@
           "type": "grid",
           "children": [
             {
+              "cols": 5,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
+                  "crop": "crop@left:119,top:0,width:3808,height:5712;",
+                  "alt": "",
+                  "caption": "Street bulletin board · [Tokyo, Japan](https://www.google.com/maps/place/35.724944444444446,139.7859638888889)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:54</small>"
+                }
+              ]
+            },
+            {
+              "cols": 1,
+              "children": []
+            },
+            {
               "cols": 6,
               "children": [
                 {
@@ -57,18 +73,6 @@
                   "crop": "crop@left:1618.3999999999999,top:1223.46875,width:1068.3555555555556,height:641.2698412698413;",
                   "alt": "",
                   "caption": "Detail view"
-                }
-              ]
-            },
-            {
-              "cols": 5,
-              "children": [
-                {
-                  "type": "image",
-                  "path": "https://media.signalwerk.ch/japanese-typography/fda046a4f8ec10c4105dbdddcd32fffd9b28c2e30feb33e9bb8b09548b0ceaf7/resize@width:130;/IMG_3135.jpg.jpg",
-                  "crop": "crop@left:119,top:0,width:3808,height:5712;",
-                  "alt": "",
-                  "caption": "[Street bulletin board, Tokyo, Japan](https://www.google.com/maps/place/35.724944444444446,139.7859638888889)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:54</small>"
                 }
               ]
             }
@@ -123,7 +127,7 @@
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/2b5aca69f99d295dedcb6234b27c2b29feb7d860a353d0d6a24af003a509e64e/resize@width:250;/Japan Rail Pass Table vehicle B.png.jpg",
-                  "caption": "[Website Japan Rail Pass · Train accommodations](https://japanrailpass.net/en/about_jrp/vehicle/) · [Archive copy](https://web.archive.org/web/20240120160729/https://japanrailpass.net/en/about_jrp/vehicle/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
+                  "caption": "[Website Japan Rail Pass · Train accommodations](https://japanrailpass.net/en/about_jrp/vehicle/) · [archive copy](https://web.archive.org/web/20240120160729/https://japanrailpass.net/en/about_jrp/vehicle/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
                 }
               ]
             },
@@ -147,7 +151,7 @@
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/99c35c5c39056a11435f050e2a354cf0dbaee980494b1df3c092b9d6f628a93f/resize@width:250;/Japan Rail Pass Table price.png.jpg",
-                  "caption": "[Website Japan Rail Pass · Types and prices](https://japanrailpass.net/en/purchase/price/) · [Archive copy](https://web.archive.org/web/20240120160546/https://japanrailpass.net/en/purchase/price/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
+                  "caption": "[Website Japan Rail Pass · Types and prices](https://japanrailpass.net/en/purchase/price/) · [archive copy](https://web.archive.org/web/20240120160546/https://japanrailpass.net/en/purchase/price/)<small> · Screen&nbsp;capture:&nbsp;Stefan&nbsp;Huber · 20. 1. 2024</small>"
                 }
               ]
             },
@@ -210,7 +214,7 @@
     },
     {
       "type": "text",
-      "body": "### Takeaways reference mark\nThe usage of these symbols in both Japanese and Latin scripts underscores a universal need in typography: to provide additional information without cluttering or disrupting the primary text.",
+      "body": "### Takeaways from the Reference Mark\nThe presence of symbols with a similar purpose in structuring tests in both Japanese and Latin scripts highlights a universal demand in typography. This demand is for the inclusion of supplementary information without overpowering or disrupting the main text. Different cultures have discovered diverse methods to fulfil this requirement effectively.",
       "class": "break-before"
     },
     {
@@ -225,7 +229,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "※※ HELLO ※※  \n ❦ ❦ WORLD ❦ ❦",
+                  "body": "`※※` HELLO `※※`  \n ❦ ❦ WORLD ❦ ❦",
                   "class": "text--typo-example"
                 }
               ]
@@ -235,7 +239,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "Decorative marks in the form of fleurons (printers' flower) are sometimes used in Latin texts. One of the most common fleurons is the Aldus leaf ❦ also known as floral heart. The geometric and symmetric character of the Japanese reference mark could be used as a modern form of a fleuron."
+                  "body": "Decorative marks in the form of fleurons (printers' flowers) are sometimes used in Latin texts. One of the most common fleurons is the Aldus leaf ❦, also known as a floral heart. The geometric and symmetric character of the Japanese reference mark could be used as a modern form of a fleuron."
                 }
               ]
             }

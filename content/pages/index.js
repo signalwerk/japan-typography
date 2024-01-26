@@ -3,7 +3,7 @@ import path from "path";
 
 async function mergeJsonChildren() {
   const pages = [
-    "",
+    "/introduction",
     "/reference-mark",
     "/brackets",
     "/markers-of-approval-disapproval",
@@ -12,18 +12,18 @@ async function mergeJsonChildren() {
     "/finals-stroke",
   ];
   const basePath = "./content/pages/"; // Update this with the actual path to your JSON files
-  const outputFile = "print.json";
+  const outputFile = "index.json";
 
   // Function to get file path, replace empty string with "/index"
   function getFile(page) {
-    return path.join(basePath, page ? `${page}.json` : "index.json");
+    return path.join(basePath, `${page}.json`);
   }
 
   try {
     // Read and parse the first JSON file
     let firstFilePath = getFile(pages[0]);
     let mainJson = JSON.parse(fs.readFileSync(firstFilePath, "utf8"));
-    mainJson.path = "/print/"; // Set the "path" key to "/print"
+    mainJson.path = "/"; // Set the "path"
 
     // Merge children from the other JSON files
     for (let i = 1; i < pages.length; i++) {

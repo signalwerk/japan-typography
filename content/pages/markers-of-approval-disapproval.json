@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "body": "### Observations of the Japanese symbols\nIn Japan, a circle (〇) is often used to indicate that something is correct or acceptable, akin to the checkmark in the Western context. The circle, known as «maru» in Japanese, signifies approval or completion. Double Line (✕) is used for marking something wrong or incorrect, the Japanese often use a double line or a variation of the Western cross. Known as «batsu», it is similar in use to the Western cross.\n\nOther Symbols: Japanese typography may also use other symbols for specific contexts, like in grading or feedback forms. The symbol of a bullseye (◎) is called «nijūmaru» and often used to denote excellence or superiority, A triangle (△) can carry the meaning «so-so» and is named «sankaku»\n\n\nFor instance, a triangle might be used to denote something that needs attention or improvement.\n\n"
+      "body": "### Observations of the Japanese symbols\nThe circle (〇), known as «maru» in Japanese, signifies approval or completion. It is used to indicate that something is correct or acceptable, akin to the checkmark in the Western context. A double line (✕), known as «batsu» in Japanese, is used for marking something wrong or incorrect. It is similar in use to the Western cross.\n\nOther Symbols: Japanese typography may also use other symbols for specific contexts, like in grading or feedback forms. The symbol of a bullseye (◎) is called «nijūmaru» and often used to denote excellence or superiority, A triangle (△) can carry the meaning «so-so» and is named «sankaku»\n\n\nFor instance, a triangle might be used to denote something that needs attention or improvement.\n\n"
     },
 
     {
@@ -25,7 +25,7 @@
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/0804f9a2b2be68955e255244a81cd58c4700a252d82d7652cce0252580dfc703/resize@width:250;/DualShock_4.jpg",
-                  "caption": "Sony DualShock 4 (DS4) controller for the PlayStation 4<small> · Foto:&nbsp;[Evan Amos](https://commons.wikimedia.org/wiki/File:DualShock_4.jpg)</small>"
+                  "caption": "Sony DualShock 4 (DS4) controller for the PlayStation 4<small> · Photo:&nbsp;[Evan Amos](https://commons.wikimedia.org/wiki/File:DualShock_4.jpg)</small>"
                 }
               ]
             },
@@ -61,7 +61,7 @@
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
                   "crop": "rotate@angle:1.7;crop@left:236.9056188451194,top:576.0214773833518,width:3223.352207922989,height:2148.9645798919837;",
-                  "caption": "Infor-Screen [Train station Tokyo, Japan](https://www.google.com/maps/place/35.6806,139.7669527777778)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 06:09</small>"
+                  "caption": "Information screen · [Train station Tokyo, Japan](https://www.google.com/maps/place/35.6806,139.7669527777778)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 06:09</small>"
                 }
               ]
             },
@@ -76,7 +76,7 @@
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/79d630a6091269e843d631acdce6a2c247863729fc324e4c1248c5f2a188a9ad/resize@width:130;/IMG_3246.jpg.jpg",
                   "crop": "rotate@angle:1.7;crop@left:1493.2232945389344,top:913.1076762170951,width:1084.022680170092,height:722.7030101641193;",
-                  "caption": "detail view"
+                  "caption": "Detail view"
                 }
               ]
             }
@@ -107,7 +107,7 @@
                 {
                   "type": "image",
                   "path": "https://media.signalwerk.ch/japanese-typography/d8d53d4cb4cce33a348c835783c3d66832ed8a6376c223defecbb259438a8bc2/resize@width:250;/IMG_3254.jpg.jpg",
-                  "caption": "[Train station, Osaka, Japan](https://www.google.com/maps/place/34.70560555555556,135.49766666666665)<small> · Foto:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 11:36</small>",
+                  "caption": "[Train station, Osaka, Japan](https://www.google.com/maps/place/34.70560555555556,135.49766666666665)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 31. 10. 2023 11:36</small>",
                   "crop": "crop@left:117.3626060455257,top:1646.6472620787072,width:3364.33802917658,height:2242.8840794619164;"
                 }
               ]
@@ -119,7 +119,7 @@
     },
     {
       "type": "text",
-      "body": "### Takeaway Markers\n\nThe exploration of Japanese and Western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides, and the need for sensitivity and awareness in their application across diverse cultural landscapes."
+      "body": "### Takeaway markers\n\nThe exploration of Japanese and western typographic symbols unveils a interplay between culture, communication, and design. In Japanese typography, the use of «maru» and «batsu» emphasises the importance of understanding cultural nuances in typography, especially for designers and communicators working across different cultural contexts. It underscores the power of typographic symbols in bridging or highlighting cultural divides."
     }
   ],
   "path": "/markers-of-approval-disapproval/"

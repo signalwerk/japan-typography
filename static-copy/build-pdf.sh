@@ -2,7 +2,7 @@
 
 
 # Array of pages to be converted to PDF
-pages=("" "/reference-mark" "/brackets" "/markers-of-approval-disapproval" "/setting-aesthetic-accents" "/typographic-strategies-for-webpage-integrations" "/finals-stroke")
+pages=("/introduction" "/reference-mark" "/brackets" "/markers-of-approval-disapproval" "/setting-aesthetic-accents" "/typographic-strategies-for-webpage-integrations" "/finals-stroke")
 
 
 

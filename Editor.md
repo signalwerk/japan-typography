@@ -1,5 +1,5 @@
 ```html
-<small> · Foto:&nbsp;Stefan&nbsp;Huber</small>
+<small> · Photo:&nbsp;Stefan&nbsp;Huber</small>
 ```
 
 ```json
