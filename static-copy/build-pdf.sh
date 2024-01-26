@@ -58,7 +58,7 @@ convert_to_pdf() {
     curl \
         --user $BASIC_AUTH_USERNAME:$BASIC_AUTH_PASSWORD \
         --request POST 'https://html2pdf.srv.signalwerk.ch/forms/chromium/convert/url' \
-        --form "url=https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&bust=$(date +%s)" \
+        --form "url=https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=pagedjs--pdf&bust=$(date +%s)" \
         --form "printBackground=true" \
         --form "paperWidth=$paperWidth" \
         --form "paperHeight=$paperHeight" \
