@@ -27,7 +27,7 @@
     },
     {
       "type": "text",
-      "body": "## Table of Content\n* [Reference mark](./reference-mark/)\n* [Brackets](./brackets/)\n* [Markers of Approval and Disapproval](./markers-of-approval-disapproval/)\n* [Setting aesthetic accents](./setting-aesthetic-accents/)\n* [Typographic Strategies for Webpage Integrations](./typographic-strategies-for-webpage-integrations/)\n * [The Final Stroke](./finals-stroke/)"
+      "body": "## Table of Content\n\n<nav>\n\n* [Reference mark](#reference-mark)\n* [Brackets](#brackets)\n* [Markers of Approval and Disapproval](#markers-of-approval-disapproval)\n* [Setting aesthetic accents](#setting-aesthetic-accents)\n* [Typographic Strategies for Webpage Integrations](#typographic-strategies-for-webpage-integrations)\n* [The Final Stroke](#finals-stroke)\n\n</nav>\n"
     }
   ]
 }

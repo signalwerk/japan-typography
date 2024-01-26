@@ -1,6 +1,11 @@
 .nodebox--expample {
-  margin-top: 5rem;
-  margin-bottom: 3.75rem;
+  margin-top: 9rem;
+  margin-bottom: 7.5rem;
+
+  @include media(m) {
+    margin-top: 13rem;
+    margin-bottom: 10.5rem;
+  }
 
   @include media(print) {
     break-inside: avoid;

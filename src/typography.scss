@@ -119,10 +119,23 @@ h2 {
   font-size: var(--typography--size-2);
   margin-top: 0;
   // color: var(--color-primary);
-  margin-bottom: 4.5em;
+  margin-bottom: 2.5em;
+
+  @include media(screen) {
+    margin-top: 7rem;
+  }
+
+  @include media(m) {
+    margin-top: 9rem;
+  }
+
+  @include media(xl) {
+    margin-top: 12rem;
+  }
 
   @include media(print) {
     page-break-before: right;
+    margin-bottom: 4.5em;
     // page-break-before: always;
   }
 }

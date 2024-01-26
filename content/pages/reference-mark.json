@@ -6,7 +6,7 @@
   "children": [
     {
       "type": "text",
-      "body": "## Reference mark ※\nThe reference mark ※, known as the «komejirushi» in Japanese, is a symbol used in Japanese typography with specific usage. It serves to highlight additional information, similar to the usage of footnotes in Western texts. It is typically found in academic texts, annotated works, or in instances where additional information is necessary but not always integral to the primary text. Its distinct appearance, resembling a flower or asterisk. Its name literally translates to «rice symbol», as the symbol resembles to the kanji for «rice» (米)[^wiki-reference-mark]. The visual appearance is unique, and it adds both functionality and contextual value to the text.  \n\n\n[^wiki-reference-mark]: [Wikipedia · Reference mark](https://en.wikipedia.org/wiki/Reference_mark)"
+      "body": "## <span id=\"reference-mark\"></span>Reference mark ※\nThe reference mark ※, known as the «komejirushi» in Japanese, is a symbol used in Japanese typography with specific usage. It serves to highlight additional information, similar to the usage of footnotes in Western texts. It is typically found in academic texts, annotated works, or in instances where additional information is necessary but not always integral to the primary text. Its distinct appearance, resembling a flower or asterisk. Its name literally translates to «rice symbol», as the symbol resembles to the kanji for «rice» (米)[^wiki-reference-mark]. The visual appearance is unique, and it adds both functionality and contextual value to the text.  \n\n\n[^wiki-reference-mark]: [Wikipedia · Reference mark](https://en.wikipedia.org/wiki/Reference_mark)"
     },
     {
       "type": "box",

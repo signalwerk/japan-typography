@@ -6,7 +6,7 @@
   "children": [
     {
       "type": "text",
-      "body": "## Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)\n\n\n"
+      "body": "## <span id=\"brackets\"></span>Brackets\n\n### Latin Alphabet\nBrackets found in the Latin alphabet, serve not only linguistic but also typographic purposes. Their use varies based on context and the specific types of brackets employed. Brackets in the Latin alphabet are used to organize text, clarify meaning, and ensure readability, while also fulfilling specific linguistic functions in various professional and academic contexts. Their typographical roles complement these linguistic functions by providing visual cues to guide the reader's understanding and interpretation of the text. \n\nSome common uses of brackets in Latin alphabets follow. [^gpt-lat-brackets] \n\n[^gpt-lat-brackets]: [ChatGPT · Finding examples for usage of brackets](https://chat.openai.com/share/64e8ec8a-a13e-45b7-9838-ef9cccd57198)\n\n\n"
     },
     {
       "type": "box",
