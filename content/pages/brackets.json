@@ -193,16 +193,16 @@
     },
     {
       "type": "grid",
-      "class": "image-emotional image-emotional--landscape full-width break-before",
+      "class": "image-emotional full-width break-before",
       "children": [
         {
-          "cols": 12,
+          "cols": 10,
           "children": [
             {
               "type": "image",
-              "crop": "rotate@angle:-90;crop@left:0,top:396.66666666666663,width:5712,height:3808;",
-              "caption": "Manhole cover · [Tokyo, Japan](https://www.google.com/maps/place/35.66510833333333,139.72903333333335)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 29. 10. 2023 14:34</small>",
-              "path": "https://media.signalwerk.ch/japanese-typography/dc0f2216d7b2cf9c9075f85a181ab4e4192e7c623ae4c46e54f08f0428a3e4a7/resize@width:250;/IMG_3109.jpg.jpg"
+              "path": "https://media.signalwerk.ch/japanese-typography/13fae4bc8dcdd5ee7e15ff8426bfdfc067b984baeddecc72d8c14c8a84916129/resize@width:250;/IMG_3639.jpg.jpg",
+              "crop": "crop@left:0,top:0,width:2688,height:4032;",
+              "caption": "Museum Scene · [21st Century Museum of Contemporary Art, Kanazawa, Japan](https://www.google.com/maps/place/36.56063888888889,136.65705833333334)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 07. 11. 2023 12:18</small>"
             }
           ]
         }
