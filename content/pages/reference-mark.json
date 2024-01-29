@@ -47,6 +47,7 @@
       "children": [
         {
           "type": "grid",
+          "class": "node-grid--align-items-center",
           "children": [
             {
               "cols": 5,
@@ -60,12 +61,9 @@
                 }
               ]
             },
+
             {
-              "cols": 1,
-              "children": []
-            },
-            {
-              "cols": 6,
+              "cols": 7,
               "children": [
                 {
                   "type": "image",
@@ -82,7 +80,7 @@
           "type": "grid",
           "children": [
             {
-              "cols": 6,
+              "cols": 5,
               "children": [
                 {
                   "type": "text",
@@ -91,7 +89,7 @@
               ]
             },
             {
-              "cols": 6,
+              "cols": 7,
               "children": [
                 {
                   "type": "text",
@@ -250,7 +248,7 @@
     },
     {
       "type": "grid",
-      "class": "image--emotional full-width break-before",
+      "class": "image-emotional full-width break-before",
       "children": [
         {
           "cols": 10,

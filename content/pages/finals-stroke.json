@@ -16,7 +16,7 @@
 
     {
       "type": "grid",
-      "class": "image--emotional full-width break-before",
+      "class": "image-emotional image-emotional--landscape full-width break-before",
       "children": [
         {
           "cols": 12,
@@ -34,8 +34,7 @@
 
     {
       "type": "text",
-      "class": "break-before",
-      "body": "### Footnotes"
+      "body": "## Footnotes"
     }
   ]
 }

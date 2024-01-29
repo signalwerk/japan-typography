@@ -144,11 +144,22 @@ a {
   @include media(s) {
     display: var(--grid--display, grid);
   }
+  @include media(print) {
+    display: var(--grid--display, grid);
+  }
   grid-template-columns: repeat(var(--node-gird--count), 1fr);
   grid-column-gap: var(--grid--grid-column-gap, 1.5rem);
 
   margin-top: 2.5rem;
   margin-bottom: 2rem;
+
+  &.grid--margin-top-big {
+    margin-top: 5rem;
+  }
+
+  &.node-grid--align-items-center {
+    align-items: center;
+  }
 }
 
 .node-grid-column {
@@ -164,9 +175,16 @@ a {
 }
 
 // the big pictures between the text
-.image--emotional {
+.image-emotional {
   @include media(screen) {
     display: block;
+    .node-grid-column {
+      width: 75%;
+      margin: 0 auto;
+      @include media(s) {
+        width: 65%;
+      }
+    }
   }
   margin-top: 7.5rem;
   margin-bottom: 5rem;
@@ -174,10 +192,14 @@ a {
   margin-left: var(--column-left);
 
   @include media(print) {
-    margin-top: 0;
+    margin-top: 0.7rem;
     margin-bottom: 0;
     width: 100%;
     margin-left: 0;
+
+    &.image-emotional--landscape {
+      margin-top: 11.5rem;
+    }
   }
 }
 

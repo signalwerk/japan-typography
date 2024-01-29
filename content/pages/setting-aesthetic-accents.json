@@ -50,10 +50,6 @@
           "type": "grid",
           "children": [
             {
-              "cols": 1,
-              "children": []
-            },
-            {
               "cols": 6,
               "children": [
                 {
@@ -64,12 +60,9 @@
                 }
               ]
             },
+
             {
-              "cols": 1,
-              "children": []
-            },
-            {
-              "cols": 4,
+              "cols": 6,
               "children": [
                 {
                   "type": "text",
@@ -94,6 +87,15 @@
           "type": "grid",
           "children": [
             {
+              "cols": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "body": "A triple accentuation on a signage:\n1. Coloured in red.\n2. Underlined within the red section.\n3. Second underline within the underlined and red section."
+                }
+              ]
+            },
+            {
               "cols": 8,
               "children": [
                 {
@@ -101,15 +103,6 @@
                   "path": "https://media.signalwerk.ch/japanese-typography/6bf645ba20676a18849021ad6f55c3bcda88c6c76d32b7643da2dc22a498176c/resize@width:250;/IMG_3124.jpg.jpg",
                   "crop": "rotate@angle:0.6;crop@left:449.73030707576584,top:787.7976019009164,width:3103.1391188227844,height:2068.802696310467;",
                   "caption": "Detail view Signage · [Tokyo, Japan](https://www.google.com/maps/place/35.72645555555556,139.78803888888888)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 09:49</small>"
-                }
-              ]
-            },
-            {
-              "cols": 4,
-              "children": [
-                {
-                  "type": "text",
-                  "body": "A triple accentuation on a signage:\n1. Coloured in red.\n2. Underlined within the red section.\n3. Second underline within the underlined and red section."
                 }
               ]
             }

@@ -44,16 +44,10 @@
               ]
             }
           ]
-        }
-      ],
-      "title": "Example · Brackets in Latin Alphabet"
-    },
-    {
-      "type": "box",
-      "preset": "expample",
-      "children": [
+        },
         {
           "type": "grid",
+          "class": "grid--margin-top-big",
           "children": [
             {
               "cols": 6,
@@ -86,8 +80,9 @@
           ]
         }
       ],
-      "title": "Example · Special cases of brackets in Latin Alphabet"
+      "title": "Example · Brackets in Latin Alphabet"
     },
+
     {
       "type": "text",
       "body": "### Observations of Japanese Brackets\n\nJapanese typography features a range of typographic symbols[^wiki-japanese-typographic-symbols], each serving specific aesthetic and functional purposes within the script. This aspect of typographic design showcases the variety and distinct roles these elements play, contributing to the overall structure and style of the script.\n\nJapanese script features various brackets[^wiki-japanese-punctuation], such as corner brackets「」/『』, lenticular brackets【】, and tortoise shell brackets〔〕. Each type of bracket serves a specific purpose and is chosen based on the context and content of the text. \nThe functional aspects of these brackets are diverse. For instance, corner brackets are commonly used for direct speech[^jpn-with-anime] or titles, while lenticular brackets often enclose definitions or explanations. This functional specificity enhances the meaning and clarity of the written text.\n\n[^jpn-with-anime]: [Japanese with Anime · Quotation Marks](https://www.japanesewithanime.com/2017/05/quotation-marks-japanese.html)\n[^wiki-japanese-punctuation]: [Wikipedia · Japanese punctuation](https://en.wikipedia.org/wiki/Japanese_punctuation)\n[^wiki-japanese-typographic-symbols]: [Wikipedia · Japanese typographic symbols](https://en.wikipedia.org/wiki/List_of_Japanese_typographic_symbols)"
@@ -100,17 +95,6 @@
           "type": "grid",
           "children": [
             {
-              "cols": 7,
-              "children": [
-                {
-                  "type": "image",
-                  "path": "https://media.signalwerk.ch/japanese-typography/435e5ed052dad3ccd0ce8fbe54f5e6bfd3ee7669676dd3d659911a13cc1fa8f4/resize@width:130;/IMG_3136.jpg.jpg",
-                  "crop": "crop@left:465.5,top:410.64843749999994,width:3276,height:2184;",
-                  "caption": "Shelf label · [rébon Kaisaiyu, Tokyo](https://www.google.com/maps/place/35.722211111111115,139.78500277777778)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 10:26</small>"
-                }
-              ]
-            },
-            {
               "cols": 5,
               "children": [
                 {
@@ -121,6 +105,17 @@
                   "type": "text",
                   "body": "---\n\nTranslation[^deepL-corner-bracket]\n\n`JP`:「ピエロ太陽と傘」  \n`EN`: «Clowns, suns and umbrellas»\n\n[^deepL-corner-bracket]: [DeepL · Translation](https://www.deepl.com/translator#ja/en/%E3%80%8C%E3%83%94%E3%82%A8%E3%83%AD%E5%A4%AA%E9%99%BD%E3%81%A8%E5%82%98%E3%80%8D)",
                   "class": "translation"
+                }
+              ]
+            },
+            {
+              "cols": 7,
+              "children": [
+                {
+                  "type": "image",
+                  "path": "https://media.signalwerk.ch/japanese-typography/435e5ed052dad3ccd0ce8fbe54f5e6bfd3ee7669676dd3d659911a13cc1fa8f4/resize@width:130;/IMG_3136.jpg.jpg",
+                  "crop": "crop@left:465.5,top:410.64843749999994,width:3276,height:2184;",
+                  "caption": "Shelf label · [rébon Kaisaiyu, Tokyo](https://www.google.com/maps/place/35.722211111111115,139.78500277777778)<small> · Photo:&nbsp;Stefan&nbsp;Huber · 30. 10. 2023 10:26</small>"
                 }
               ]
             }
@@ -198,7 +193,7 @@
     },
     {
       "type": "grid",
-      "class": "image--emotional full-width break-before",
+      "class": "image-emotional image-emotional--landscape full-width break-before",
       "children": [
         {
           "cols": 12,
