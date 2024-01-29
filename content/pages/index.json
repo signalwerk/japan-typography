@@ -469,7 +469,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "#### Lenticular brackets 【 】\nIn the screenshot, there is a message displayed for a tsunami evacuation drill sent through cell broadcast. The lenticular brackets are used to categorize and emphasize the following text, acting like a title.\n\nCell broadcast is a widely used method in emergency communication systems for sending messages to multiple mobile telephones (although it is not commonly used in Switzerland).\n\n"
+                  "body": "#### Lenticular brackets 【 】\nIn the screenshot, there is a message displayed for a tsunami evacuation drill sent through cell broadcast. The lenticular brackets are used to categorize and emphasize the following text, acting like a title.\n\nCell broadcast is a world wide used method in emergency communication systems for sending messages to multiple mobile telephones (although it is not commonly used in Switzerland).\n\n"
                 },
                 {
                   "type": "text",
@@ -613,7 +613,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the «Face With OK Gesture» (<span style=\"filter: grayscale(50%);\">🙆</span>) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
+                  "body": "Many western people use on a daily basis the PlayStation Controllers produced by the Japanese company Sony. The symbols on the buttons are a good example of the use of the Japanese symbols in a western context. The circle (〇) is used to confirm and the cross (✕) to cancel (reversed layout in western games).  \nAnother case commonly used – also in western culture – is the emoji «Face With OK Gesture» (<span style=\"filter: grayscale(50%);\">🙆</span>) that represents a two-armed OK gesture.[^wiki-ok-gesture]\n\n[^wiki-ok-gesture]: [Wikipedia · OK gesture](https://en.wikipedia.org/wiki/OK_gesture)"
                 }
               ]
             }
@@ -763,7 +763,7 @@
               "children": [
                 {
                   "type": "text",
-                  "body": "A triple accentuation on a signage:\n1. Coloured in red.\n2. Underlined within the red section.\n3. Second underline within the underlined and red section."
+                  "body": "A triple accentuation on a signage:\n1. Coloured in red.\n2. Underline within the red section.\n3. Second underline within the underlined and red section."
                 }
               ]
             },
@@ -935,7 +935,7 @@
     },
     {
       "type": "text",
-      "body": "### Impressum\nAuthor · Stefan Huber, Zurich, Switzerland  \nYear of publication · 2024  \nLicence · [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  \nFonts · Work Sans is a versatile typeface created by Wei Huang that draws inspiration from early Grotesques. It has continuously evolved to meet the demands of modern typography. To provide comprehensive symbol, emoji, and Japanese character coverage, the font Noto was utilized as a fallback option.\n\n\nGenerative AI was used in co-authorship and is clearly marked with footnotes where the AI had a creative process. Other parts of this work might also be supported with AI, but only as a tool to formulate, translate or expand the author's original thoughts.\n\n<br/>Published under [typography.japan.signalwerk.ch](https://typography.japan.signalwerk.ch/)"
+      "body": "### Impressum\nAuthor · Stefan Huber, Zurich, Switzerland  \nYear of publication · 2024  \nLicence · [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  \nFonts · Work Sans is a versatile typeface created by Wei Huang that draws inspiration from early Grotesques. It has continuously evolved to meet the demands of modern typography.  \nTo provide comprehensive symbol, emoji, and Japanese character coverage, the font Noto was utilized as a fallback option.\n\n\nGenerative AI was used in co-authorship and is clearly marked with footnotes where the AI had a creative process. Other parts of this work might also be supported with AI, but only as a tool to formulate, translate or expand the author's original thoughts.\n\n<br/>Published under [typography.japan.signalwerk.ch](https://typography.japan.signalwerk.ch/)"
     },
     {
       "type": "grid",
