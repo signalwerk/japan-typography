@@ -225,23 +225,6 @@ sup {
   top: -0.075em;
 }
 
-// node-grid
-
-// :root {
-//   --node-gird--count: 12;
-//   --node-grid-column--count: 1;
-// }
-
-// .node-grid {
-//   display: var(--grid--display, grid);
-//   grid-template-columns: repeat(var(--node-gird--count), 1fr);
-//   grid-column-gap: var(--grid--grid-column-gap, 1.5rem);
-// }
-
-// .node-grid-column {
-//   grid-column: span var(--node-grid-column--count);
-// }
-
 body.debug:after {
   content: "mobile";
   position: fixed;
@@ -289,6 +272,9 @@ body.debug:after {
   h2 {
     string-set: titleH2 content(text);
   }
+
+  // for Creep Adjustment
+  // https://chat.openai.com/c/a7948374-e97d-403b-9e9c-e61880000ab4
 
   @page {
     size: A4;
