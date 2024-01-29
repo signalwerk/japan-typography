@@ -31,7 +31,7 @@ jobs:
 
       - name: 🔨 npm build
         # run: npm run build
-        run: yarn build
+        run: yarn build:gh-pages
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
