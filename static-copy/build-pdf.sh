@@ -54,8 +54,9 @@ echo "marginBottom: $marginBottom"
 convert_to_pdf() {
     local page=$1
     local pdf_path=$2
+    local className=$3
 
-    local finalPath="https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=pagedjs--pdf&bust=$(date +%s)"
+    local finalPath="https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=${className}&bust=$(date +%s)"
     echo "$finalPath"
 
     curl \
@@ -117,6 +118,7 @@ merge_pdfs() {
 # merge_pdfs "_merged.pdf"
 
 
-convert_to_pdf "/" "$basePath/pdf/print.pdf"
-pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
-pdfcpu booklet -- "formsize:A3" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
+# convert_to_pdf "/" "$basePath/pdf/print.pdf" "pagedjs--pdf"
+# pdftotext "$basePath/pdf/print.pdf" "$basePath/pdf/print.txt"
+# pdfcpu booklet -- "formsize:A3" "$basePath/pdf/print-mont.pdf" 2 "$basePath/pdf/print.pdf"
+convert_to_pdf "/" "$basePath/pdf/print-paper.pdf" "pagedjs--print"
