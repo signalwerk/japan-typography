@@ -107,15 +107,27 @@ a {
   }
 }
 
-// .header__title {
-//   font-size: 1.7rem;
-//   color: var(--color-primary);
-// }
+@media print {
+  .pagedjs--print a {
+    text-decoration: none;
+  }
 
-// .header {
-//   padding-top: 1rem;
-//   padding-bottom: 2rem;
-// }
+  .pagedjs--print a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+  .pagedjs--print a[href^="https://www.deepl.com/"]::after
+  {
+    content: " (https://www.deepl.com/)";
+  }
+  .pagedjs--print a[href^="https://typography.japan.signalwerk.ch/"]::after
+  {
+    content: "";
+  }
+  .pagedjs--print .node-image__caption a::after {
+    content: "";
+  }
+}
 
 .node-page {
   width: 100%;
