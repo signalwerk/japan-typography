@@ -56,7 +56,7 @@ convert_to_pdf() {
     local pdf_path=$2
     local className=$3
 
-    local finalPath="https://paged.signalwerk.workers.dev${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=${className}&bust=$(date +%s)"
+    local finalPath="https://paged.worker.signalwerk.ch${page}?originHostname=typography.japan.signalwerk.ch&addBodyClass=${className}&bust=$(date +%s)"
     echo "$finalPath"
 
     curl \
